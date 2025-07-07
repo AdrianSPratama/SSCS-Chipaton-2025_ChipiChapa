@@ -1,0 +1,1 @@
+# SSCS-Chipaton-2025_ChipiChapa
