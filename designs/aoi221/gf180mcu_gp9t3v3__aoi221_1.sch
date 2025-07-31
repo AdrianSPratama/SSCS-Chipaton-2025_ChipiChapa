@@ -38,9 +38,9 @@ N 420 -740 450 -740 {lab=B1}
 N 600 -740 630 -740 {lab=B2}
 N 510 -640 540 -640 {lab=C1}
 C {title.sym} 160 -40 0 0 {name=l1 author="Adrian Sami Pratama"}
-C {symbols/nfet_03v3.sym} 360 -480 0 0 {name=M1
+C {symbols/nfet_03v3.sym} 360 -480 0 0 {name=MA1_n
 L=0.3u
-W=1u
+W=0.85u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -52,9 +52,9 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/nfet_03v3.sym} 360 -370 0 0 {name=M2
+C {symbols/nfet_03v3.sym} 360 -370 0 0 {name=MA2_n
 L=0.3u
-W=1u
+W=0.85u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -66,9 +66,9 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/nfet_03v3.sym} 560 -480 0 0 {name=M3
+C {symbols/nfet_03v3.sym} 560 -480 0 0 {name=MB1_n
 L=0.3u
-W=1u
+W=0.85u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -80,9 +80,9 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/nfet_03v3.sym} 560 -370 0 0 {name=M4
+C {symbols/nfet_03v3.sym} 560 -370 0 0 {name=MB2_n
 L=0.3u
-W=1u
+W=0.85u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -94,9 +94,9 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/nfet_03v3.sym} 750 -430 0 0 {name=M5
+C {symbols/nfet_03v3.sym} 750 -430 0 0 {name=MC1_n
 L=0.3u
-W=0.5u
+W=0.85u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -108,9 +108,9 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 470 -840 0 0 {name=M6
+C {symbols/pfet_03v3.sym} 470 -840 0 0 {name=MA1_p
 L=0.3u
-W=2.25u
+W=1.7u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -122,9 +122,9 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 650 -840 0 0 {name=M7
+C {symbols/pfet_03v3.sym} 650 -840 0 0 {name=MA2_p
 L=0.3u
-W=2.25u
+W=1.7u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -136,9 +136,9 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 470 -740 0 0 {name=M8
+C {symbols/pfet_03v3.sym} 470 -740 0 0 {name=MB1_p
 L=0.3u
-W=2.25u
+W=1.7u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -150,9 +150,9 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 650 -740 0 0 {name=M9
+C {symbols/pfet_03v3.sym} 650 -740 0 0 {name=MB2_p
 L=0.3u
-W=2.25u
+W=1.7u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -164,9 +164,9 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 560 -640 0 0 {name=M10
+C {symbols/pfet_03v3.sym} 560 -640 0 0 {name=MC1_p
 L=0.3u
-W=2.25u
+W=1.7u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
