@@ -86,7 +86,7 @@ meas tran TPLH_A TRIG v(A0) VAL=1.65 FALL=2 TARG v(out) VAL=1.65 RISE=1
 meas tran VPEAK MAX v(out)
 plot A0+16 A1+12 B+8 C+4 out
 
-write gf180mcu_gp9t3v3__oai211_1_tb.raw
+write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/oai211/gf180mcu_gp9t3v3__oai211_1_tb.raw
 .endc
 "}
 C {capa.sym} 1073.4375 -438.4375 0 0 {name=C1
