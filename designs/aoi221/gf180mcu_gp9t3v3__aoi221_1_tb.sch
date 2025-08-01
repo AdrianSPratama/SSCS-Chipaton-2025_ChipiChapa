@@ -4,23 +4,6 @@ K {}
 V {}
 S {}
 E {}
-B 2 1400 -920 1990 -460 {flags=graph
-y1=-0.00020887682
-y2=-5.8876813e-05
-ypos1=0
-ypos2=2
-divy=5
-subdivy=1
-unity=u
-x1=-1.897539
-x2=1.4024603
-divx=5
-subdivx=1
-node=v(out)
-color=4
-
-unitx=0.001
-dataset=-1}
 N 820 -620 840 -620 {lab=B1}
 N 820 -600 840 -600 {lab=A1}
 N 820 -580 840 -580 {lab=C1}
@@ -29,7 +12,6 @@ N 820 -540 840 -540 {lab=A2}
 N 1140 -600 1160 -600 {lab=out}
 N 1160 -600 1190 -600 {lab=out}
 N 1190 -600 1200 -600 {lab=out}
-C {SSCS-Chipaton-2025_ChipiChapa/designs/aoi221/gf180mcu_gp9t3v3__aoi221_1.sym} 860 -630 0 0 {name=xa221oi1}
 C {title.sym} 160 -40 0 0 {name=l1 author="Adrian Sami Pratama"}
 C {vdd.sym} 1140 -620 1 0 {name=l2 lab=VDD}
 C {gnd.sym} 1140 -580 0 0 {name=l3 lab=GND}
@@ -46,7 +28,6 @@ C {gnd.sym} 970 -310 0 0 {name=l8 lab=GND}
 C {gnd.sym} 910 -310 0 0 {name=l9 lab=GND}
 C {gnd.sym} 850 -310 0 0 {name=l10 lab=GND}
 C {vdd.sym} 850 -370 0 0 {name=l11 lab=VDD}
-C {noconn.sym} 1200 -600 2 0 {name=l4}
 C {lab_wire.sym} 820 -620 0 0 {name=p1 sig_type=std_logic lab=B1}
 C {lab_wire.sym} 820 -600 0 0 {name=p2 sig_type=std_logic lab=A1}
 C {lab_wire.sym} 820 -580 0 0 {name=p3 sig_type=std_logic lab=C1}
@@ -63,12 +44,12 @@ value="
 .include $::180MCU_MODELS/design.ngspice
 .lib $::180MCU_MODELS/sm141064.ngspice typical
 "}
-C {devices/code_shown.sym} 60 -1080 0 0 {name=NGSPICE1 only_toplevel=true
+C {devices/code_shown.sym} 50 -1200 0 0 {name=NGSPICE1 only_toplevel=true
 value="
 .control
 save all
 ** Define input signal
-let fsig = 1k
+let fsig = 100k
 let tperA1 = 1/fsig
 let tperA2 = 2*tperA1
 let tperB1 = 4*tperA1
@@ -105,14 +86,15 @@ dc VB2 0 3.3 0.01
 dc VC1 0 3.3 0.01
 tran $&tstep $&tstop
 
+.measure tran tplh TRIG v(in) VAL=0.9 RISE=1 TARG v(out) VAL=0.9 RISE=1
 write gf180mcu_gp9t3v3__aoi221_1_tb.raw
 .endc
 "}
-C {lab_wire.sym} 1190 -600 3 0 {name=p11 sig_type=std_logic lab=out}
-C {devices/launcher.sym} 1425 -385 0 0 {name=h1
-descr="Click left mouse button here with control key
-pressed to load/unload waveforms in graph."
-tclcommand="
-xschem raw_read $netlist_dir/[file tail [file rootname [xschem get current_name]]].raw
-"
-}
+C {lab_wire.sym} 1180 -600 3 0 {name=p11 sig_type=std_logic lab=out}
+C {gf180mcu_gp9t3v3__aoi221_1.sym} 860 -630 0 0 {name=aoi221}
+C {gnd.sym} 1200 -540 0 0 {name=l4 lab=GND}
+C {capa.sym} 1200 -570 0 0 {name=C1
+m=1
+value=1f
+footprint=1206
+device="ceramic capacitor"}
