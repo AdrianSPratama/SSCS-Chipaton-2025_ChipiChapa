@@ -4,9 +4,9 @@ K {}
 V {}
 S {}
 E {}
-N 1370 -360 1390 -360 {lab=out}
-N 1390 -360 1420 -360 {lab=out}
-N 1420 -360 1430 -360 {lab=out}
+N 1277.5 -317.5 1297.5 -317.5 {lab=out}
+N 1297.5 -317.5 1327.5 -317.5 {lab=out}
+N 1327.5 -317.5 1337.5 -317.5 {lab=out}
 C {devices/code_shown.sym} 0 -880 0 0 {name=NGSPICE1 only_toplevel=true
 value="
 .control
@@ -68,12 +68,17 @@ C {lab_wire.sym} 890 -140 0 0 {name=p6 sig_type=std_logic lab=B}
 C {lab_wire.sym} 770 -140 0 0 {name=p7 sig_type=std_logic lab=A0}
 C {lab_wire.sym} 950 -140 0 0 {name=p9 sig_type=std_logic lab=C}
 C {lab_wire.sym} 830 -140 0 0 {name=p10 sig_type=std_logic lab=A1}
-C {lab_wire.sym} 1070 -380 0 0 {name=p1 sig_type=std_logic lab=A1}
-C {lab_wire.sym} 1070 -360 0 0 {name=p2 sig_type=std_logic lab=A0}
-C {lab_wire.sym} 1070 -340 0 0 {name=p3 sig_type=std_logic lab=B}
-C {lab_wire.sym} 1070 -320 0 0 {name=p4 sig_type=std_logic lab=C}
-C {vdd.sym} 1370 -380 1 0 {name=l2 lab=VDD}
-C {gnd.sym} 1370 -340 0 0 {name=l3 lab=GND}
-C {noconn.sym} 1430 -360 2 0 {name=l4}
-C {lab_wire.sym} 1420 -360 3 0 {name=p11 sig_type=std_logic lab=out}
-C {SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1.sym} 1090 -390 0 0 {name=x211aoi1}
+C {lab_wire.sym} 1080 -347.5 0 0 {name=p1 sig_type=std_logic lab=A1}
+C {lab_wire.sym} 1080 -367.5 0 0 {name=p2 sig_type=std_logic lab=A0}
+C {lab_wire.sym} 1080 -317.5 0 0 {name=p3 sig_type=std_logic lab=B}
+C {lab_wire.sym} 1080 -288.75 0 0 {name=p4 sig_type=std_logic lab=C}
+C {vdd.sym} 1178.75 -406.25 0 0 {name=l2 lab=VDD}
+C {gnd.sym} 1178.75 -226.25 0 0 {name=l3 lab=GND}
+C {lab_wire.sym} 1337.5 -317.5 1 0 {name=p11 sig_type=std_logic lab=out}
+C {SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1.sym} 1107.5 -387.5 0 0 {name=x211aoi1}
+C {capa.sym} 1337.5 -287.5 0 0 {name=C1
+m=1
+value=0.001p
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 1337.5 -257.5 0 0 {name=l1 lab=GND}
