@@ -4,17 +4,18 @@ K {}
 V {}
 S {}
 E {}
-N 765 -500 785 -500 {lab=A0}
-N 765 -480 785 -480 {lab=A1}
-N 765 -460 785 -460 {lab=B}
-N 765 -440 785 -440 {lab=C}
-N 1085 -480 1135 -480 {lab=out}
-N 1085 -500 1105 -500 {lab=VDD}
-N 1085 -460 1105 -460 {lab=GND}
-N 1105 -460 1105 -440 {lab=GND}
+N 765 -498.75 785 -498.75 {lab=A0}
+N 765 -478.75 785 -478.75 {lab=A1}
+N 765.3125 -455.9375 785.3125 -455.9375 {lab=B}
+N 765 -435.9375 785 -435.9375 {lab=C}
+N 987.8125 -468.4375 1037.8125 -468.4375 {lab=out}
+N 785 -435.9375 785.3125 -435.9375 {lab=C}
+N 1033.4375 -468.4375 1075.9375 -468.4375 {lab=out}
+N 894.6875 -543.125 894.6875 -533.125 {lab=VDD}
+N 893.4375 -408.75 893.4375 -401.25 {lab=GND}
 C {title.sym} 160 -40 0 0 {name=l1 author="Saputra Yudika Marpaung"}
 C {vsource.sym} 805 -290 0 0 {name=VS value=3.3 savecurrent=false}
-C {gf180mcu_gp9t3v3_oai211_1.sym} 775 -430 0 0 {name=x1}
+C {gf180mcu_gp9t3v3_oai211_1.sym} 815 -515 0 0 {name=x1}
 C {vsource.sym} 865 -290 0 0 {name=VA0 value=3.3 savecurrent=false}
 C {vsource.sym} 925 -290 0 0 {name=VA1 value=3.3 savecurrent=false}
 C {vsource.sym} 985 -290 0 0 {name=VB value=3.3 savecurrent=false}
@@ -29,26 +30,25 @@ C {lab_pin.sym} 865 -320 0 0 {name=p1_A0 sig_type=std_logic lab=A0}
 C {lab_pin.sym} 925 -320 0 0 {name=p2_A1 sig_type=std_logic lab=A1}
 C {lab_pin.sym} 985 -320 0 0 {name=p3_B sig_type=std_logic lab=B}
 C {lab_pin.sym} 1045 -320 0 0 {name=p4_C sig_type=std_logic lab=C}
-C {lab_pin.sym} 765 -500 0 0 {name=p5_A0 sig_type=std_logic lab=A0}
-C {lab_pin.sym} 765 -480 0 0 {name=p6_A1 sig_type=std_logic lab=A1}
-C {lab_pin.sym} 765 -460 0 0 {name=p7_B sig_type=std_logic lab=B}
-C {lab_pin.sym} 765 -440 0 0 {name=p8_C sig_type=std_logic lab=C}
-C {noconn.sym} 1135 -480 2 0 {name=l8}
-C {vdd.sym} 1105 -500 0 0 {name=l9 lab=VDD}
-C {gnd.sym} 1105 -440 0 0 {name=l10 lab=GND}
-C {lab_wire.sym} 1130 -480 3 0 {name=p1 sig_type=std_logic lab=out}
+C {lab_pin.sym} 765.625 -498.75 0 0 {name=p5_A0 sig_type=std_logic lab=A0}
+C {lab_pin.sym} 765 -478.75 0 0 {name=p6_A1 sig_type=std_logic lab=A1}
+C {lab_pin.sym} 765.625 -455.9375 0 0 {name=p7_B sig_type=std_logic lab=B}
+C {lab_pin.sym} 765 -435.9375 0 0 {name=p8_C sig_type=std_logic lab=C}
+C {vdd.sym} 894.6875 -543.125 0 0 {name=l9 lab=VDD}
+C {gnd.sym} 893.4375 -401.875 0 0 {name=l10 lab=GND}
+C {lab_wire.sym} 1033.4375 -468.4375 3 0 {name=p1 sig_type=std_logic lab=out}
 C {devices/code_shown.sym} 15 -180 0 0 {name=MODELS only_toplevel=true
 format="tcleval( @value )"
 value="
 .include $::180MCU_MODELS/design.ngspice
 .lib $::180MCU_MODELS/sm141064.ngspice typical
 "}
-C {devices/code_shown.sym} 15 -945 0 0 {name=NGSPICE1 only_toplevel=true
+C {devices/code_shown.sym} 5 -1075 0 0 {name=NGSPICE1 only_toplevel=true
 value="
 .control
 save all
 ** Define input signal
-let fsig = 1k
+let fsig = 1Meg
 let tperA0 = 1/fsig
 let tperA1 = 2*tperA0
 let tperB = 4*tperA0
@@ -80,6 +80,18 @@ dc VB 0 3.3 0.01
 dc VC 0 3.3 0.01
 tran $&tstep $&tstop
 
+**Measurement
+meas tran TRISE_result TRIG v(out) VAL=0.33 RISE=1 TARG v(out) VAL=2.97 RISE=1
+meas tran TPLH_A TRIG v(A0) VAL=1.65 FALL=2 TARG v(out) VAL=1.65 RISE=1
+meas tran VPEAK MAX v(out)
+plot A0+16 A1+12 B+8 C+4 out
+
 write gf180mcu_gp9t3v3__oai211_1_tb.raw
 .endc
 "}
+C {capa.sym} 1073.4375 -438.4375 0 0 {name=C1
+m=1
+value=1f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 1073.4375 -408.4375 0 0 {name=l8 lab=GND}
