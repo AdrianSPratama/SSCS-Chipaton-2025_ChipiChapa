@@ -47,27 +47,18 @@ tran $&tstep $&tstop
 let start_point = 0.001*tstop
 
 * Measure TPLH: input rising triggers output rising
-  meas tran TPLH TRIG v(a1) VAL=0.5*3.3 FALL=1
+  meas tran TPLH TRIG v(a0) VAL=0.5*3.3 FALL=1
   + TARG v(out) VAL=0.5*3.3 RISE=1
-  + from=10.2u
-	
-  * Measure TPHL: input falling triggers output falling
-  meas tran TPHL TRIG v(a1) VAL=0.5*3.3 RISE=1
-  + TARG v(out) VAL=0.5*3.3 FALL=1
-  + from=11.8u
+  + from=6u
 
   * Measure Rise Time: output from 10% to 90%
   meas tran Trise TRIG v(out) VAL=0.1*3.3 RISE=LAST
   + TARG v(out) VAL=0.9*3.3 RISE=lAST
   + from=$&start_point
 
-  * Measure Fall Time: output from 90% to 10%
-  meas tran Tfall TRIG v(out) VAL=0.9*3.3 FALL=1
-  + TARG v(out) VAL=0.1*3.3 FALL=2
-  + from=$&start_point
-
 meas tran Vpeak MAX v(out)
 + from=$&start_point
+plot A0+16 A1+12 B+8 C+4 out
 
 write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_gp9t3v3__aoi211_1_tb.raw
 .endc
