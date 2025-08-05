@@ -7,7 +7,7 @@ E {}
 N 1777.5 -317.5 1797.5 -317.5 {lab=out}
 N 1797.5 -317.5 1827.5 -317.5 {lab=out}
 N 1827.5 -317.5 1837.5 -317.5 {lab=out}
-C {devices/code_shown.sym} 10 -1410 0 0 {name=NGSPICE1 only_toplevel=true
+C {devices/code_shown.sym} 0 -1020 0 0 {name=NGSPICE1 only_toplevel=true
 value="
 .control
 save all
@@ -28,39 +28,33 @@ let tstop = 8*tperA0
 let tstep = 0.001*tperA0
 
 ** Set Sources
-** alter @VA0[DC] = 0.0
-** alter @VA1[DC] = 0.0
-** alter @VB[DC] = 0.0
-** alter @VC[DC] = 0.0
 alter @VA0[PULSE] = [ 3.3 0 0 $&tfr $&tfr $&tonA0 $&tperA0 0 ]
 alter @VA1[PULSE] = [ 3.3 0 0 $&tfr $&tfr $&tonA1 $&tperA1 0 ]
 alter @VB[PULSE] = [ 3.3 0 0 $&tfr $&tfr $&tonB $&tperB 0 ]
 alter @VC[PULSE] = [ 3.3 0 0 $&tfr $&tfr $&tonC $&tperC 0 ]
 
-** Simulations op
-** dc VA0 0 3.3 0.01
-** dc VA1 0 3.3 0.01
-** dc VB 0 3.3 0.01
-** dc VC 0 3.3 0.01
 tran $&tstep $&tstop
 
-let start_point = 0.001*tstop
-	
-  * Measure TPHL: input falling triggers output falling
-  meas tran TPHL TRIG v(a0) VAL=0.5*3.3 RISE=1
-  + TARG v(out) VAL=0.5*3.3 FALL=1
-  + from=1.4u
-
-  * Measure Fall Time: output from 90% to 10%
-  meas tran Tfall TRIG v(out) VAL=0.9*3.3 FALL=1
-  + TARG v(out) VAL=0.1*3.3 FALL=1
-  + from=$&start_point
-
-meas tran Vpeak MAX v(out)
-+ from=$&start_point
 plot A0+16 A1+12 B+8 C+4 out
 
-write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_gp9t3v3__aoi211_1_tb_2.raw
+** Measure leakage power for each input combination (16 total)
+let VDD = 3.3
+let window = 0.5u
+
+let idx = 0
+let tstart = 0.2u
+let tstop = 0.4u
+
+repeat 16
+  meas tran Iavg_#$&idx avg I(vs) from=$&tstart to=$&tstop
+  let leakagePower_#$&idx = Iavg_#$&idx * VDD
+  print leakagePower_#$&idx
+  let idx = idx + 1
+  let tstart = tstart + window
+  let tstop = tstop + window
+end
+
+write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_gp9t3v3__aoi211_1_tb_power.raw
 .endc
 "}
 C {devices/code_shown.sym} 0 -80 0 0 {name=MODELS only_toplevel=true
