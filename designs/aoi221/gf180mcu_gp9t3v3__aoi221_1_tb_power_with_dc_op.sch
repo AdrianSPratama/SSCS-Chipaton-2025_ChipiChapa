@@ -44,105 +44,6 @@ value="
 .include $::180MCU_MODELS/design.ngspice
 .lib $::180MCU_MODELS/sm141064.ngspice typical
 "}
-C {devices/code_shown.sym} 60 -2190 0 0 {name=NGSPICE1 only_toplevel=true
-value="
-.control
-save all
-** Define input signal
-let fsig = 1Meg
-let tperA1 = 1/fsig
-let tperA2 = 2*tperA1
-let tperB1 = 4*tperA1
-let tperB2 = 8*tperA1
-let tperC1 = 16*tperA1
-let tfr = 0.01*tperA1
-let tonA1 = 0.5*tperA1-tfr
-let tonA2 = 0.5*tperA2-tfr
-let tonB1 = 0.5*tperB1-tfr
-let tonB2 = 0.5*tperB2-tfr
-let tonC1 = 0.5*tperC1-tfr
-
-** Define transient params
-let tstop = 16*tperA1
-let tstep = 0.001*tperA1
-
-** Set Sources
-alter @VA1[DC] = 0.0
-alter @VA2[DC] = 0.0
-alter @VB1[DC] = 0.0
-alter @VB2[DC] = 0.0
-alter @VC1[DC] = 0.0
-alter @VA1[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&tonA1 $&tperA1 0 ]
-alter @VA2[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&tonA2 $&tperA2 0 ]
-alter @VB1[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&tonB1 $&tperB1 0 ]
-alter @VB2[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&tonB2 $&tperB2 0 ]
-alter @VC1[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&tonC1 $&tperC1 0 ]
-
-** Simulations op
-dc VA1 0 3.3 0.01
-dc VA2 0 3.3 0.01
-dc VB1 0 3.3 0.01
-dc VB2 0 3.3 0.01
-dc VC1 0 3.3 0.01
-tran $&tstep $&tstop
-
-let start_point = 0.001*tstop
-
-* Measure TPLH: input rising triggers output rising
-  meas tran TPLH TRIG v(a1) VAL=0.5*3.3 FALL=1
-  + TARG v(out) VAL=0.5*3.3 RISE=1
-  + from=10.2u
-	
-  * Measure TPHL: input falling triggers output falling
-  meas tran TPHL TRIG v(a1) VAL=0.5*3.3 RISE=1
-  + TARG v(out) VAL=0.5*3.3 FALL=1
-  + from=11.8u
-
-  * Measure Rise Time: output from 10% to 90%
-  meas tran Trise TRIG v(out) VAL=0.1*3.3 RISE=LAST
-  + TARG v(out) VAL=0.9*3.3 RISE=lAST
-  + from=$&start_point
-
-  * Measure Fall Time: output from 90% to 10%
-  meas tran Tfall TRIG v(out) VAL=0.9*3.3 FALL=1
-  + TARG v(out) VAL=0.1*3.3 FALL=2
-  + from=$&start_point
-
-meas tran Vpeak MAX v(out)
-+ from=$&start_point
-
-meas tran Iavg avg I(vs)
-+ from=$&start_point
-
-let dynamicPower = Iavg*3.3
-print dynamicPower
-
-meas tran Iavg2 avg I(vs)
-+ from=15.6u to=15.9u
-
-let leakagePower = Iavg2*3.3
-print leakagePower
-
-** Measure leakage power for each input combination (32 total)
-let VDD = 3.3
-let window = 0.5u
-
-let idx = 0
-let tstart = 0.2u
-let tstop = 0.4u
-
-repeat 32
-  meas tran Iavg_#$&idx avg I(vs) from=$&tstart to=$&tstop
-  let leakagePower_#$&idx = Iavg_#$&idx * VDD
-  print leakagePower_#$&idx
-  let idx = idx + 1
-  let tstart = tstart + window
-  let tstop = tstop + window
-end
-
-write gf180mcu_gp9t3v3__aoi221_1_tb.raw
-.endc
-"}
 C {lab_wire.sym} 1160 -530 3 0 {name=p11 sig_type=std_logic lab=out}
 C {gf180mcu_gp9t3v3__aoi221_1.sym} 860 -630 0 0 {name=xaoi221_1}
 C {gnd.sym} 1180 -470 0 0 {name=l4 lab=GND}
@@ -181,3 +82,42 @@ value=50
 footprint=1206
 device=resistor
 m=1}
+C {devices/code_shown.sym} 20 -1420 0 0 {name=NGSPICE1 only_toplevel=true
+value="
+.control
+save all
+
+let VDD = 3.3
+let idx = 0
+let total_leakage = 0
+
+repeat 32
+  let logic_a1 = (($&idx)%2)
+  let logic_a2 = (floor($&idx/2)%2)
+  let logic_b1 = (floor($&idx/4)%2)
+  let logic_b2 = (floor($&idx/8)%2)
+  let logic_c1 = (floor($&idx/16)%2)
+  let a1 = logic_a1*VDD
+  let a2 = logic_a2*VDD
+  let b1 = logic_b1*VDD
+  let b2 = logic_b2*VDD
+  let c1 = logic_c1*VDD
+  alter @VA1[dc] = $&a1
+  alter @VA2[dc] = $&a2
+  alter @VB1[dc] = $&b1
+  alter @VB2[dc] = $&b2
+  alter @VC1[dc] = $&c1
+  op
+  echo input combination c1b2b1a2a1 = $&logic_c1$&logic_b2$&logic_b1$&logic_a2$&logic_a1
+  let leakage_power = I(vs)*VDD
+  let total_leakage = total_leakage + leakage_power
+  print leakage_power
+  let idx = $&idx + 1
+end
+
+let avg_leakage_power = total_leakage/32
+print avg_leakage_power
+
+write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_gp9t3v3__aoi211_1_tb_powerwithdcop.raw
+.endc
+"}
