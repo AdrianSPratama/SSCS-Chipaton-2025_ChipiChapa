@@ -7,14 +7,14 @@ E {}
 N 1787.5 -327.5 1807.5 -327.5 {lab=out}
 N 1807.5 -327.5 1837.5 -327.5 {lab=out}
 N 1837.5 -327.5 1847.5 -327.5 {lab=out}
-C {devices/code_shown.sym} 10 -760 0 0 {name=NGSPICE1 only_toplevel=true
+C {devices/code_shown.sym} 10 -780 0 0 {name=NGSPICE1 only_toplevel=true
 value="
 .control
 save all
 
 let VDD = 3.3
 let idx = 0
-let total = 0
+let total_leakage = 0
 
 repeat 16
   let logic_a0 = (($&idx)%2)
@@ -30,10 +30,10 @@ repeat 16
   alter @VB[dc]  = $&b
   alter @VC[dc]  = $&c
   op
-  show all
-  echo input combination a0a1bc = $&logic_a0$&logic_a1$&logic_b$&logic_c
+  **show all
+  echo input combination cba1a0 = $&logic_c$&logic_b$&logic_a1$&logic_a0
   let leakage_power = I(vs)*VDD
-  let total_leakage = total + leakage_power
+  let total_leakage = total_leakage + leakage_power
   print leakage_power
   let idx = $&idx + 1
 end
