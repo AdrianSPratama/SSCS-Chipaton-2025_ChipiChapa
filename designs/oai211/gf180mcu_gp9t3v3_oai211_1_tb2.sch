@@ -4,46 +4,46 @@ K {}
 V {}
 S {}
 E {}
-N 775 -498.75 795 -498.75 {lab=A0}
-N 775 -478.75 795 -478.75 {lab=A1}
-N 775.3125 -455.9375 795.3125 -455.9375 {lab=B}
-N 775 -435.9375 795 -435.9375 {lab=C}
-N 997.8125 -468.4375 1047.8125 -468.4375 {lab=out}
-N 795 -435.9375 795.3125 -435.9375 {lab=C}
-N 1043.4375 -468.4375 1085.9375 -468.4375 {lab=out}
-N 904.6875 -543.125 904.6875 -533.125 {lab=VDD}
-N 903.4375 -408.75 903.4375 -401.25 {lab=GND}
+N 1085 -668.75 1105 -668.75 {lab=A0}
+N 1085 -648.75 1105 -648.75 {lab=A1}
+N 1085.3125 -625.9375 1105.3125 -625.9375 {lab=B}
+N 1085 -605.9375 1105 -605.9375 {lab=C}
+N 1307.8125 -638.4375 1357.8125 -638.4375 {lab=out}
+N 1105 -605.9375 1105.3125 -605.9375 {lab=C}
+N 1353.4375 -638.4375 1395.9375 -638.4375 {lab=out}
+N 1214.6875 -713.125 1214.6875 -703.125 {lab=VDD}
+N 1213.4375 -578.75 1213.4375 -571.25 {lab=GND}
 C {title.sym} 170 -40 0 0 {name=l1 author="Saputra Yudika Marpaung"}
-C {vsource.sym} 815 -290 0 0 {name=VS value=3.3 savecurrent=false}
-C {gf180mcu_gp9t3v3_oai211_1.sym} 825 -515 0 0 {name=x1}
-C {vsource.sym} 875 -290 0 0 {name=VA0 value=3.3 savecurrent=false}
-C {vsource.sym} 935 -290 0 0 {name=VA1 value=3.3 savecurrent=false}
-C {vsource.sym} 995 -290 0 0 {name=VB value=3.3 savecurrent=false}
-C {vsource.sym} 1055 -290 0 0 {name=VC value=3.3 savecurrent=false}
-C {vdd.sym} 815 -320 0 0 {name=l2 lab=VDD}
-C {gnd.sym} 815 -260 0 0 {name=l3 lab=GND}
-C {gnd.sym} 875 -260 0 0 {name=l4 lab=GND}
-C {gnd.sym} 935 -260 0 0 {name=l5 lab=GND}
-C {gnd.sym} 995 -260 0 0 {name=l6 lab=GND}
-C {gnd.sym} 1055 -260 0 0 {name=l7 lab=GND}
-C {lab_pin.sym} 875 -320 0 0 {name=p1_A0 sig_type=std_logic lab=A0}
-C {lab_pin.sym} 935 -320 0 0 {name=p2_A1 sig_type=std_logic lab=A1}
-C {lab_pin.sym} 995 -320 0 0 {name=p3_B sig_type=std_logic lab=B}
-C {lab_pin.sym} 1055 -320 0 0 {name=p4_C sig_type=std_logic lab=C}
-C {lab_pin.sym} 775.625 -498.75 0 0 {name=p5_A0 sig_type=std_logic lab=A0}
-C {lab_pin.sym} 775 -478.75 0 0 {name=p6_A1 sig_type=std_logic lab=A1}
-C {lab_pin.sym} 775.625 -455.9375 0 0 {name=p7_B sig_type=std_logic lab=B}
-C {lab_pin.sym} 775 -435.9375 0 0 {name=p8_C sig_type=std_logic lab=C}
-C {vdd.sym} 904.6875 -543.125 0 0 {name=l9 lab=VDD}
-C {gnd.sym} 903.4375 -401.875 0 0 {name=l10 lab=GND}
-C {lab_wire.sym} 1043.4375 -468.4375 3 0 {name=p1 sig_type=std_logic lab=out}
+C {vsource.sym} 1125 -460 0 0 {name=VS value=3.3 savecurrent=false}
+C {gf180mcu_gp9t3v3_oai211_1.sym} 1135 -685 0 0 {name=x1}
+C {vsource.sym} 1185 -460 0 0 {name=VA0 value=3.3 savecurrent=false}
+C {vsource.sym} 1245 -460 0 0 {name=VA1 value=3.3 savecurrent=false}
+C {vsource.sym} 1305 -460 0 0 {name=VB value=3.3 savecurrent=false}
+C {vsource.sym} 1365 -460 0 0 {name=VC value=3.3 savecurrent=false}
+C {vdd.sym} 1125 -490 0 0 {name=l2 lab=VDD}
+C {gnd.sym} 1125 -430 0 0 {name=l3 lab=GND}
+C {gnd.sym} 1185 -430 0 0 {name=l4 lab=GND}
+C {gnd.sym} 1245 -430 0 0 {name=l5 lab=GND}
+C {gnd.sym} 1305 -430 0 0 {name=l6 lab=GND}
+C {gnd.sym} 1365 -430 0 0 {name=l7 lab=GND}
+C {lab_pin.sym} 1185 -490 0 0 {name=p1_A0 sig_type=std_logic lab=A0}
+C {lab_pin.sym} 1245 -490 0 0 {name=p2_A1 sig_type=std_logic lab=A1}
+C {lab_pin.sym} 1305 -490 0 0 {name=p3_B sig_type=std_logic lab=B}
+C {lab_pin.sym} 1365 -490 0 0 {name=p4_C sig_type=std_logic lab=C}
+C {lab_pin.sym} 1085.625 -668.75 0 0 {name=p5_A0 sig_type=std_logic lab=A0}
+C {lab_pin.sym} 1085 -648.75 0 0 {name=p6_A1 sig_type=std_logic lab=A1}
+C {lab_pin.sym} 1085.625 -625.9375 0 0 {name=p7_B sig_type=std_logic lab=B}
+C {lab_pin.sym} 1085 -605.9375 0 0 {name=p8_C sig_type=std_logic lab=C}
+C {vdd.sym} 1214.6875 -713.125 0 0 {name=l9 lab=VDD}
+C {gnd.sym} 1213.4375 -571.875 0 0 {name=l10 lab=GND}
+C {lab_wire.sym} 1353.4375 -638.4375 3 0 {name=p1 sig_type=std_logic lab=out}
 C {devices/code_shown.sym} 25 -180 0 0 {name=MODELS only_toplevel=true
 format="tcleval( @value )"
 value="
 .include $::180MCU_MODELS/design.ngspice
 .lib $::180MCU_MODELS/sm141064.ngspice typical
 "}
-C {devices/code_shown.sym} 15 -1075 0 0 {name=NGSPICE1 only_toplevel=true
+C {devices/code_shown.sym} 5 -1195 0 0 {name=NGSPICE1 only_toplevel=true
 value="
 .control
 save all
@@ -81,17 +81,28 @@ dc VC 0 3.3 0.01
 tran $&tstep $&tstop
 
 **Measurement
-meas tran TFALL_result TRIG v(out) VAL=0.33 FALL=1 TARG v(out) VAL=2.97 FALL=1 from=6.4u
-meas tran TPHL_A0 TRIG v(A0) VAL=1.65 RISE=1 TARG v(out) VAL=1.65 FALL=1 from=6.4u
-meas tran VPEAK MAX v(out)
+let start_point = 0.001*tstop
+  * Measure TPHL: input falling triggers output falling
+  meas tran TPHL TRIG v(a0) VAL=0.5*3.3 RISE=1
+  + TARG v(out) VAL=0.5*3.3 FALL=1
+  + from=6.4u
+
+  * Measure Fall Time: output from 90% to 10%
+  meas tran Tfall TRIG v(out) VAL=0.9*3.3 FALL=1
+  + TARG v(out) VAL=0.1*3.3 FALL=1
+  + from=6.4u
+
+meas tran Vpeak MAX v(out)
++ from=$&start_point
+
 plot A0+16 A1+12 B+8 C+4 out
 
 write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/oai211/gf180mcu_gp9t3v3__oai211_1_tb2.raw
 .endc
 "}
-C {capa.sym} 1083.4375 -438.4375 0 0 {name=C1
+C {capa.sym} 1393.4375 -608.4375 0 0 {name=C1
 m=1
 value=1f
 footprint=1206
 device="ceramic capacitor"}
-C {gnd.sym} 1083.4375 -408.4375 0 0 {name=l8 lab=GND}
+C {gnd.sym} 1393.4375 -578.4375 0 0 {name=l8 lab=GND}
