@@ -7,31 +7,38 @@ E {}
 N 1787.5 -327.5 1807.5 -327.5 {lab=out}
 N 1807.5 -327.5 1837.5 -327.5 {lab=out}
 N 1837.5 -327.5 1847.5 -327.5 {lab=out}
-C {devices/code_shown.sym} 0 -670 0 0 {name=NGSPICE1 only_toplevel=true
+C {devices/code_shown.sym} 10 -760 0 0 {name=NGSPICE1 only_toplevel=true
 value="
 .control
 save all
 
+let VDD = 3.3
 let idx = 0
 let total = 0
 
 repeat 16
-  let a0 = (($&idx)%2)*3.3
-  let a1 = (floor($&idx/2)%2)*3.3
-  let b  = (floor($&idx/4)%2)*3.3
-  let c  = (floor($&idx/8)%2)*3.3
-
+  let logic_a0 = (($&idx)%2)
+  let logic_a1 = (floor($&idx/2)%2)
+  let logic_b  = (floor($&idx/4)%2)
+  let logic_c  = (floor($&idx/8)%2)
+  let a0 = logic_a0*VDD
+  let a1 = logic_a1*VDD
+  let b = logic_b*VDD
+  let c = logic_c*VDD
   alter @VA0[dc] = $&a0
   alter @VA1[dc] = $&a1
   alter @VB[dc]  = $&b
   alter @VC[dc]  = $&c
   op
-  echo no.$&idx of input combination
-  let total = total + I(vs)*3.3
-  print I(vs)*3.3
+  show all
+  echo input combination a0a1bc = $&logic_a0$&logic_a1$&logic_b$&logic_c
+  let leakage_power = I(vs)*VDD
+  let total_leakage = total + leakage_power
+  print leakage_power
   let idx = $&idx + 1
-  end
-let avg_leakage_power = total/16
+end
+
+let avg_leakage_power = total_leakage/16
 print avg_leakage_power
 
 write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_gp9t3v3__aoi211_1_tb_powerwithdcop.raw

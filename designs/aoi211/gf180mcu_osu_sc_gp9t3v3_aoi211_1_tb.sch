@@ -7,7 +7,7 @@ E {}
 N 1637.5 -377.5 1657.5 -377.5 {lab=out}
 N 1657.5 -377.5 1687.5 -377.5 {lab=out}
 N 1687.5 -377.5 1697.5 -377.5 {lab=out}
-C {devices/code_shown.sym} 0 -1320 0 0 {name=NGSPICE1 only_toplevel=true
+C {devices/code_shown.sym} 10 -1310 0 0 {name=NGSPICE1 only_toplevel=true
 value="
 .control
 save all
@@ -47,14 +47,14 @@ tran $&tstep $&tstop
 let start_point = 0.001*tstop
 
 * Measure TPLH: input rising triggers output rising
-  meas tran TPLH TRIG v(a0) VAL=0.5*3.3 FALL=1
-  + TARG v(out) VAL=0.5*3.3 RISE=1
+  meas tran TPLH TRIG v(a0) VAL=1.65 FALL=1
+  + TARG v(out) VAL=1.65 RISE=1
   + from=6u
 
   * Measure Rise Time: output from 10% to 90%
-  meas tran Trise TRIG v(out) VAL=0.1*3.3 RISE=LAST
-  + TARG v(out) VAL=0.9*3.3 RISE=lAST
-  + from=$&start_point
+  meas tran Trise TRIG v(out) VAL=0.33 RISE=1
+  + TARG v(out) VAL=2.97 RISE=1
+  + from=6.4u
 
 meas tran Vpeak MAX v(out)
 + from=$&start_point
