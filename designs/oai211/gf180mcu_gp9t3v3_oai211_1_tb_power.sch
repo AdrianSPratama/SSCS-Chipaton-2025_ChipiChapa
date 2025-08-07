@@ -83,6 +83,6 @@ repeat 16
 let avg_leakage_power = total_leakage/16
 print avg_leakage_power
 
-write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/oai211/gf180mcu_gp9t3v3__oai211_1_tb_powerwithdcop.raw
+write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/oai211/gf180mcu_gp9t3v3__oai211_1_tb_power.raw
 .endc
 "}
