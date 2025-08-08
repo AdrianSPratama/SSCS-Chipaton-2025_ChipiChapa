@@ -15,11 +15,11 @@ N 1170 -530 1180 -530 {lab=out}
 C {title.sym} 160 -40 0 0 {name=l1 author="Adrian Sami Pratama"}
 C {vdd.sym} 1010 -630 0 0 {name=l2 lab=VDD}
 C {gnd.sym} 1010 -420 0 0 {name=l3 lab=GND}
-C {vsource.sym} 910 -250 0 0 {name=VA1 value=3.3 savecurrent=false}
-C {vsource.sym} 970 -250 0 0 {name=VA2 value=3.3 savecurrent=false}
-C {vsource.sym} 1030 -250 0 0 {name=VB1 value=3.3 savecurrent=false}
-C {vsource.sym} 1090 -250 0 0 {name=VB2 value=3.3 savecurrent=false}
-C {vsource.sym} 1150 -250 0 0 {name=VC1 value=3.3 savecurrent=false}
+C {vsource.sym} 910 -250 0 0 {name=VA0 value=3.3 savecurrent=false}
+C {vsource.sym} 970 -250 0 0 {name=VA1 value=3.3 savecurrent=false}
+C {vsource.sym} 1030 -250 0 0 {name=VB0 value=3.3 savecurrent=false}
+C {vsource.sym} 1090 -250 0 0 {name=VB1 value=3.3 savecurrent=false}
+C {vsource.sym} 1150 -250 0 0 {name=VC value=3.3 savecurrent=false}
 C {vsource.sym} 850 -250 0 0 {name=VS value=3.3 savecurrent=false}
 C {gnd.sym} 1150 -220 0 0 {name=l5 lab=GND}
 C {gnd.sym} 1090 -220 0 0 {name=l6 lab=GND}
@@ -27,17 +27,17 @@ C {gnd.sym} 1030 -220 0 0 {name=l7 lab=GND}
 C {gnd.sym} 970 -220 0 0 {name=l8 lab=GND}
 C {gnd.sym} 910 -220 0 0 {name=l9 lab=GND}
 C {gnd.sym} 850 -220 0 0 {name=l10 lab=GND}
-C {vdd.sym} 850 -340 0 0 {name=l11 lab=VDD}
+C {vdd.sym} 850 -280 0 0 {name=l11 lab=VDD}
 C {lab_wire.sym} 840 -530 0 0 {name=p1 sig_type=std_logic lab=B0}
 C {lab_wire.sym} 840 -600 0 0 {name=p2 sig_type=std_logic lab=A0}
 C {lab_wire.sym} 840 -460 0 0 {name=p3 sig_type=std_logic lab=C}
 C {lab_wire.sym} 840 -500 0 0 {name=p4 sig_type=std_logic lab=B1}
 C {lab_wire.sym} 840 -570 0 0 {name=p5 sig_type=std_logic lab=A1}
-C {lab_wire.sym} 1030 -340 0 0 {name=p6 sig_type=std_logic lab=B0}
-C {lab_wire.sym} 910 -340 0 0 {name=p7 sig_type=std_logic lab=A0}
-C {lab_wire.sym} 1150 -340 0 0 {name=p8 sig_type=std_logic lab=C0}
-C {lab_wire.sym} 1090 -340 0 0 {name=p9 sig_type=std_logic lab=B1}
-C {lab_wire.sym} 970 -340 0 0 {name=p10 sig_type=std_logic lab=A1}
+C {lab_wire.sym} 1030 -280 0 0 {name=p6 sig_type=std_logic lab=B0}
+C {lab_wire.sym} 910 -280 0 0 {name=p7 sig_type=std_logic lab=A0}
+C {lab_wire.sym} 1150 -280 0 0 {name=p8 sig_type=std_logic lab=C}
+C {lab_wire.sym} 1090 -280 0 0 {name=p9 sig_type=std_logic lab=B1}
+C {lab_wire.sym} 970 -280 0 0 {name=p10 sig_type=std_logic lab=A1}
 C {devices/code_shown.sym} 60 -210 0 0 {name=MODELS only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -52,36 +52,6 @@ m=1
 value=1f
 footprint=1206
 device="ceramic capacitor"}
-C {res.sym} 850 -310 0 0 {name=R1
-value=50
-footprint=1206
-device=resistor
-m=1}
-C {res.sym} 910 -310 0 0 {name=R2
-value=50
-footprint=1206
-device=resistor
-m=1}
-C {res.sym} 970 -310 0 0 {name=R3
-value=50
-footprint=1206
-device=resistor
-m=1}
-C {res.sym} 1030 -310 0 0 {name=R4
-value=50
-footprint=1206
-device=resistor
-m=1}
-C {res.sym} 1090 -310 0 0 {name=R5
-value=50
-footprint=1206
-device=resistor
-m=1}
-C {res.sym} 1150 -310 0 0 {name=R6
-value=50
-footprint=1206
-device=resistor
-m=1}
 C {devices/code_shown.sym} 20 -1420 0 0 {name=NGSPICE1 only_toplevel=true
 value="
 .control
