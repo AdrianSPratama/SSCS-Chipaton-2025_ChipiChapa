@@ -4,11 +4,11 @@ K {}
 V {}
 S {}
 E {}
-N 840 -530 860 -530 {lab=B1}
-N 840 -600 860 -600 {lab=A1}
-N 840 -460 860 -460 {lab=C1}
-N 840 -500 860 -500 {lab=B2}
-N 840 -570 860 -570 {lab=A2}
+N 840 -530 860 -530 {lab=B0}
+N 840 -600 860 -600 {lab=A0}
+N 840 -460 860 -460 {lab=C}
+N 840 -500 860 -500 {lab=B1}
+N 840 -570 860 -570 {lab=A1}
 N 1120 -530 1140 -530 {lab=out}
 N 1140 -530 1170 -530 {lab=out}
 N 1170 -530 1180 -530 {lab=out}
@@ -28,16 +28,16 @@ C {gnd.sym} 970 -220 0 0 {name=l8 lab=GND}
 C {gnd.sym} 910 -220 0 0 {name=l9 lab=GND}
 C {gnd.sym} 850 -220 0 0 {name=l10 lab=GND}
 C {vdd.sym} 850 -340 0 0 {name=l11 lab=VDD}
-C {lab_wire.sym} 840 -530 0 0 {name=p1 sig_type=std_logic lab=B1}
-C {lab_wire.sym} 840 -600 0 0 {name=p2 sig_type=std_logic lab=A1}
-C {lab_wire.sym} 840 -460 0 0 {name=p3 sig_type=std_logic lab=C1}
-C {lab_wire.sym} 840 -500 0 0 {name=p4 sig_type=std_logic lab=B2}
-C {lab_wire.sym} 840 -570 0 0 {name=p5 sig_type=std_logic lab=A2}
-C {lab_wire.sym} 1030 -340 0 0 {name=p6 sig_type=std_logic lab=B1}
-C {lab_wire.sym} 910 -340 0 0 {name=p7 sig_type=std_logic lab=A1}
-C {lab_wire.sym} 1150 -340 0 0 {name=p8 sig_type=std_logic lab=C1}
-C {lab_wire.sym} 1090 -340 0 0 {name=p9 sig_type=std_logic lab=B2}
-C {lab_wire.sym} 970 -340 0 0 {name=p10 sig_type=std_logic lab=A2}
+C {lab_wire.sym} 840 -530 0 0 {name=p1 sig_type=std_logic lab=B0}
+C {lab_wire.sym} 840 -600 0 0 {name=p2 sig_type=std_logic lab=A0}
+C {lab_wire.sym} 840 -460 0 0 {name=p3 sig_type=std_logic lab=C}
+C {lab_wire.sym} 840 -500 0 0 {name=p4 sig_type=std_logic lab=B1}
+C {lab_wire.sym} 840 -570 0 0 {name=p5 sig_type=std_logic lab=A1}
+C {lab_wire.sym} 1030 -340 0 0 {name=p6 sig_type=std_logic lab=B0}
+C {lab_wire.sym} 910 -340 0 0 {name=p7 sig_type=std_logic lab=A0}
+C {lab_wire.sym} 1150 -340 0 0 {name=p8 sig_type=std_logic lab=C0}
+C {lab_wire.sym} 1090 -340 0 0 {name=p9 sig_type=std_logic lab=B1}
+C {lab_wire.sym} 970 -340 0 0 {name=p10 sig_type=std_logic lab=A1}
 C {devices/code_shown.sym} 60 -210 0 0 {name=MODELS only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -92,23 +92,23 @@ let idx = 0
 let total_leakage = 0
 
 repeat 32
-  let logic_a1 = (($&idx)%2)
-  let logic_a2 = (floor($&idx/2)%2)
-  let logic_b1 = (floor($&idx/4)%2)
-  let logic_b2 = (floor($&idx/8)%2)
-  let logic_c1 = (floor($&idx/16)%2)
+  let logic_a0 = (($&idx)%2)
+  let logic_a1 = (floor($&idx/2)%2)
+  let logic_b0 = (floor($&idx/4)%2)
+  let logic_b1 = (floor($&idx/8)%2)
+  let logic_c = (floor($&idx/16)%2)
+  let a0 = logic_a0*VDD
   let a1 = logic_a1*VDD
-  let a2 = logic_a2*VDD
+  let b0 = logic_b0*VDD
   let b1 = logic_b1*VDD
-  let b2 = logic_b2*VDD
-  let c1 = logic_c1*VDD
+  let c = logic_c*VDD
+  alter @VA0[dc] = $&a0
   alter @VA1[dc] = $&a1
-  alter @VA2[dc] = $&a2
+  alter @VB0[dc] = $&b0
   alter @VB1[dc] = $&b1
-  alter @VB2[dc] = $&b2
-  alter @VC1[dc] = $&c1
+  alter @VC[dc] = $&c
   op
-  echo input combination c1b2b1a2a1 = $&logic_c1$&logic_b2$&logic_b1$&logic_a2$&logic_a1
+  echo input combination cb1b0a1a0 = $&logic_c$&logic_b1$&logic_b0$&logic_a1$&logic_a0
   let leakage_power = I(vs)*VDD
   let total_leakage = total_leakage + leakage_power
   print leakage_power
@@ -118,6 +118,6 @@ end
 let avg_leakage_power = total_leakage/32
 print avg_leakage_power
 
-write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_gp9t3v3__aoi211_1_tb_powerwithdcop.raw
+write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi221/gf180mcu_gp9t3v3__aoi221_1_tb_power_with_dc_op.raw
 .endc
 "}
