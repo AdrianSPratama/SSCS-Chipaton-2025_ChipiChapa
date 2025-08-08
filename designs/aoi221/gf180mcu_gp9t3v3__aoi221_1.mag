@@ -1,6 +1,6 @@
 magic
 tech gf180mcuC
-timestamp 1753689348
+timestamp 1754635369
 << nwell >>
 rect -6 44 106 122
 << nmos >>
@@ -298,11 +298,11 @@ rect 95 46 98 52
 rect 87 45 98 46
 rect 6 41 17 42
 << labels >>
-rlabel polysilicon 25 41 25 41 1 B2
-rlabel polysilicon 36 40 36 40 1 B1
-rlabel polysilicon 51 42 51 42 1 C1
-rlabel polysilicon 68 42 68 42 1 A2
-rlabel polysilicon 96 41 96 41 1 A1
 rlabel metal1 -6 114 -6 114 3 vdd
 rlabel metal1 -6 1 -6 1 3 vss
+rlabel polysilicon 25 41 25 41 1 B1
+rlabel polysilicon 36 40 36 40 1 B0
+rlabel polysilicon 51 42 51 42 1 C
+rlabel polysilicon 68 42 68 42 1 A1
+rlabel polysilicon 96 41 96 41 1 A0
 << end >>
