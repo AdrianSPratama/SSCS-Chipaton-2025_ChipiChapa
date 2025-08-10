@@ -25,13 +25,13 @@ settings:
     cell_defaults:
         models:
             # This syntax tells CharLib to use the '.lib file section' syntax for th>
-            - /foss/designs/models/sm141064.ngspice typical
-            - /foss/designs/models/design.ngspice
+            - /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+            - /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
         slews:  [0.015, 0.08, 0.4]
         loads:  [0.06, 1.2]
 cells:
     gf180mcu_gp9t3v3__aoi221_1:
-        netlist:  /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi221/CharLib_test/gf180mcu_gp9t3v3__aoi221_1.spice
+        netlist:  /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi221/Pre_Layout_CharLib_Simulation/gf180mcu_gp9t3v3__aoi221_1.spice
         inputs:     [A0, A1, B0, B1, C]
         outputs:    ['Y']
         functions: [Y=!((A0&A1)|(B0&B1)|C)]
