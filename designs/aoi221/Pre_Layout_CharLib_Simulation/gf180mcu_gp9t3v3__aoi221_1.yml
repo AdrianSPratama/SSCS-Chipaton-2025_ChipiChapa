@@ -27,8 +27,8 @@ settings:
             # This syntax tells CharLib to use the '.lib file section' syntax for th>
             - /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
             - /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
-        slews:  [0.015, 0.08, 0.4]
-        loads:  [0.06, 1.2]
+        slews:  [0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10]
+        loads:  [0.00103698, 0.00389173, 0.0146054, 0.0548132, 0.20571, 0.772017]
 cells:
     gf180mcu_gp9t3v3__aoi221_1:
         netlist:  /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi221/Pre_Layout_CharLib_Simulation/gf180mcu_gp9t3v3__aoi221_1.spice
