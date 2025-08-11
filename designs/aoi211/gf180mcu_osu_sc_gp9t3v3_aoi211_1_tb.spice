@@ -1,0 +1,106 @@
+** sch_path: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1_tb.sch
+**.subckt gf180mcu_osu_sc_gp9t3v3_aoi211_1_tb
+VA0 A0 GND 3.3
+VA1 A1 GND 3.3
+VB B GND 3.3
+VC C GND 3.3
+VS VDD GND 3.3
+x211aoi1 VDD A1 A0 B C out GND gf180mcu_osu_sc_gp9t3v3_aoi211_1
+C1 out GND 0.001p m=1
+**** begin user architecture code
+
+
+.control
+save all
+** Define input signal
+let fsig = 1Meg
+let tperA0 = 1/fsig
+let tperA1 = 2*tperA0
+let tperB = 4*tperA0
+let tperC = 8*tperA0
+let tfr = 0.01*tperA0
+let tonA0 = 0.5*tperA0-tfr
+let tonA1 = 0.5*tperA1-tfr
+let tonB = 0.5*tperB-tfr
+let tonC = 0.5*tperC-tfr
+
+** Define transient params
+let tstop = 8*tperA0
+let tstep = 0.001*tperA0
+
+** Set Sources
+** alter @VA0[DC] = 0.0
+** alter @VA1[DC] = 0.0
+** alter @VB[DC] = 0.0
+** alter @VC[DC] = 0.0
+alter @VA0[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&tonA0 $&tperA0 0 ]
+alter @VA1[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&tonA1 $&tperA1 0 ]
+alter @VB[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&tonB $&tperB 0 ]
+alter @VC[PULSE] = [ 0 3.3 0 $&tfr $&tfr $&tonC $&tperC 0 ]
+
+** Simulations op
+** dc VA0 0 3.3 0.01
+** dc VA1 0 3.3 0.01
+** dc VB 0 3.3 0.01
+** dc VC 0 3.3 0.01
+tran $&tstep $&tstop
+
+let start_point = 0.001*tstop
+
+* Measure TPLH: input rising triggers output rising
+  meas tran TPLH TRIG v(a0) VAL=1.65 FALL=1
+  + TARG v(out) VAL=1.65 RISE=1
+  + from=6u
+
+  * Measure Rise Time: output from 10% to 90%
+  meas tran Trise TRIG v(out) VAL=0.33 RISE=1
+  + TARG v(out) VAL=2.97 RISE=1
+  + from=6.4u
+
+meas tran Vpeak MAX v(out)
++ from=$&start_point
+plot A0+16 A1+12 B+8 C+4 out
+
+write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_gp9t3v3__aoi211_1_tb.raw
+.endc
+
+
+
+.include /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
+.lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1.sym # of pins=7
+** sym_path: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1.sym
+** sch_path: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1.sch
+.subckt gf180mcu_osu_sc_gp9t3v3_aoi211_1 vdd A1 A0 B C Y vss
+*.opin Y
+*.ipin A0
+*.ipin A1
+*.ipin B
+*.ipin C
+*.iopin vdd
+*.iopin vss
+XMA0_n Y A0 net3 vss nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XMA1_n net3 A1 vss vss nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XMB_n Y B vss vss nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XMC_n Y C vss vss nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XMA0_p net1 A0 vdd vdd pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XMA1_p net1 A1 vdd vdd pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XMB_p net2 B net1 vdd pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XMC_p Y C net2 vdd pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+.ends
+
+.GLOBAL GND
+.GLOBAL VDD
+.end
