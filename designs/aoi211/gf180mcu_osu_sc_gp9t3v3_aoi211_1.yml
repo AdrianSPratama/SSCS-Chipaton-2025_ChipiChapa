@@ -1,5 +1,5 @@
 settings:
-    lib_name:           aoi211new
+    lib_name:           gf180mcu_osu_sc_gp9t3v3_aoi211_1
     omit_on_failure:      True
     units:
         time:               ns
@@ -23,12 +23,13 @@ settings:
             name:       VNW
             voltage:    3.3
     cell_defaults:
+        simulation_timestep: 0.0175
         models:
             # This syntax tells CharLib to use the '.lib file section' syntax for th>
             - /foss/designs/models/sm141064.ngspice typical
             - /foss/designs/models/design.ngspice
-        slews:  [0.07, 0.3, 1.28, 5.47, 23.4, 100]
-        loads:  [0.00134, 0.0076, 0.043, 0.243, 1.377, 7.796]
+        slews:  [0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10]
+        loads:  [0.00103698, 0.00390104, 0.0146754, 0.0552075, 0.207686, 0.781296]
 cells:
     gf180mcu_osu_sc_gp9t3v3_aoi211_1:
         netlist:  /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1.spice
