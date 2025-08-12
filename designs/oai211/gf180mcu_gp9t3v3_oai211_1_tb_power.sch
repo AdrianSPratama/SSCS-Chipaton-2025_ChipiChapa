@@ -72,15 +72,14 @@ repeat 16
   alter @VB[dc]  = $&vb
   alter @VC[dc]  = $&vc
   op
-  show all
-  echo input combination a0a1bc = $&xc$&xb$&xa1$&xa0
+  echo input combination cba1a0 = $&xc$&xb$&xa1$&xa0
   let leakage_power = I(vs)*VDD
-  let total_leakage = total + leakage_power
+  let total = total + leakage_power
   print leakage_power
   let idx = $&idx + 1
   end
 
-let avg_leakage_power = total_leakage/16
+let avg_leakage_power = total/16
 print avg_leakage_power
 
 write /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/oai211/gf180mcu_gp9t3v3__oai211_1_tb_power.raw
