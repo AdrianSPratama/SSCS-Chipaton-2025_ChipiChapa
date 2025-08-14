@@ -54,7 +54,7 @@ alter @vB1[PULSE] = [ 3.3 0 0 $&tfr $&tfr $&tonB1 $&tperB1 0 ]
 alter @vC[PULSE] = [ 3.3 0 0 $&tfr $&tfr $&tonC $&tperC 0 ]
 
 tran $&tstep $&tstop
-plot A0+20 A1+16 B0+12 B1+8 C+4 out 1.65 21.65
+plot A0+20 A1+16 B0+12 B1+8 C+4 out
 
 let start_point = 0.001*tstop
 
@@ -128,4 +128,3 @@ value=1f
 footprint=1206
 device="ceramic capacitor"}
 C {ChipiChapa/SSCS-Chipaton-2025_ChipiChapa/designs/oai221/gf180mcu_gp9t3v3_oai221_1.sym} 630 -230 0 0 {name=x1}
-C {gf180mcu_gp9t3v3_oai221_1.sym} 630 -230 0 0 {name=x2}
