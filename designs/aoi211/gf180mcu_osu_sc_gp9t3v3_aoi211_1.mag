@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1755109274
+timestamp 1755164100
 << nwell >>
 rect -18 45 71 109
 << nmos >>
@@ -32,7 +32,10 @@ rect 58 7 61 18
 rect 66 7 68 18
 rect 58 3 68 7
 << pdiff >>
-rect -9 67 1 88
+rect -9 77 1 88
+rect -9 72 -7 77
+rect -2 72 1 77
+rect -9 67 1 72
 rect -9 62 -7 67
 rect -2 62 1 67
 rect -9 54 1 62
@@ -43,7 +46,10 @@ rect 7 74 18 79
 rect 7 69 10 74
 rect 15 69 18 74
 rect 7 54 18 69
-rect 24 67 35 88
+rect 24 77 35 88
+rect 24 72 27 77
+rect 32 72 35 77
+rect 24 67 35 72
 rect 24 62 27 67
 rect 32 62 35 67
 rect 24 54 35 62
@@ -61,9 +67,11 @@ rect 27 7 32 18
 rect 44 5 49 16
 rect 61 7 66 18
 << pdiffc >>
+rect -7 72 -2 77
 rect -7 62 -2 67
 rect 10 79 15 84
 rect 10 69 15 74
+rect 27 72 32 77
 rect 27 62 32 67
 rect 55 67 60 72
 rect 55 57 60 62
@@ -147,17 +155,21 @@ rect 22 97 41 102
 rect 46 97 71 102
 rect -18 95 71 97
 rect 10 84 15 95
+rect -7 77 -2 79
+rect -7 67 -2 72
 rect 10 74 15 79
-rect 55 72 60 74
-rect -7 67 -2 69
 rect 10 66 15 69
-rect 27 67 32 69
+rect 27 77 32 79
+rect 27 67 32 72
 rect -7 60 -2 62
 rect 27 60 32 62
 rect -7 55 32 60
+rect 55 72 60 74
 rect 55 62 60 67
 rect 55 52 60 57
 rect 55 46 66 52
+rect 61 42 66 46
+rect 61 41 71 42
 rect -3 35 -1 41
 rect 5 35 7 41
 rect 14 35 16 41
@@ -166,7 +178,10 @@ rect 30 35 32 41
 rect 38 35 40 41
 rect 46 35 48 41
 rect 54 35 56 41
-rect 61 28 66 46
+rect 61 35 64 41
+rect 70 35 71 41
+rect 61 34 71 35
+rect 61 28 66 34
 rect 27 23 66 28
 rect 27 18 32 23
 rect 61 18 66 23
@@ -187,6 +202,7 @@ rect -1 35 5 41
 rect 16 35 22 41
 rect 32 35 38 41
 rect 48 35 54 41
+rect 64 35 70 41
 << metal2 >>
 rect -3 41 7 42
 rect -3 35 -1 41
@@ -204,4 +220,16 @@ rect 46 41 56 42
 rect 46 35 48 41
 rect 54 35 56 41
 rect 46 34 56 35
+rect 63 41 71 42
+rect 63 35 64 41
+rect 70 35 71 41
+rect 63 34 71 35
+<< labels >>
+rlabel via1 64 35 70 41 1 Y
+rlabel psubdiffcont -7 -11 -2 -6 1 vss
+rlabel metal2 32 35 38 41 1 B
+rlabel metal2 48 35 54 41 1 C
+rlabel nsubdiffcont -7 97 -2 102 1 vdd
+rlabel metal2 16 35 22 41 1 A0
+rlabel metal2 -1 35 5 41 1 A1
 << end >>
