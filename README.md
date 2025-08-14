@@ -1,5 +1,5 @@
 # SSCS-Chipaton-2025_ChipiChapa
-ChipiChapa Team Project Tracking Sheets Link: https://docs.google.com/spreadsheets/d/1PtmuyiHweRWKpOBbN-9DdKNZ7erSgrVJdXXUhSANtq4/edit?usp=sharing
+This is ChipiChapa team github repo
 
 ## **ChipiChapa Team Project Brief**
 Extend OSU's gf180mcu 3v3 standard cell library. Our team makes 4 AOI and OAI combinational gates, that is AOI211, AOI221, OAI211, and OAI221. All of the standard cell we make have 9 tracks and drive strength X1.
