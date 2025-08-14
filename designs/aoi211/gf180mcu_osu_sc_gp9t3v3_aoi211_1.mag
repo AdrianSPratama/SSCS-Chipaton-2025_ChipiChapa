@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1755164100
+timestamp 1755166654
 << nwell >>
 rect -18 45 71 109
 << nmos >>
@@ -80,35 +80,45 @@ rect -12 -6 3 -4
 rect -12 -11 -7 -6
 rect -2 -11 3 -6
 rect -12 -13 3 -11
-rect 12 -6 27 -4
-rect 12 -11 17 -6
-rect 22 -11 27 -6
-rect 12 -13 27 -11
-rect 36 -6 51 -4
-rect 36 -11 41 -6
-rect 46 -11 51 -6
-rect 36 -13 51 -11
+rect 9 -6 24 -4
+rect 9 -11 14 -6
+rect 19 -11 24 -6
+rect 9 -13 24 -11
+rect 30 -6 45 -4
+rect 30 -11 35 -6
+rect 40 -11 45 -6
+rect 30 -13 45 -11
+rect 51 -6 66 -4
+rect 51 -11 56 -6
+rect 61 -11 66 -6
+rect 51 -13 66 -11
 << nsubdiff >>
 rect -12 102 3 104
 rect -12 97 -7 102
 rect -2 97 3 102
 rect -12 95 3 97
-rect 12 102 27 104
-rect 12 97 17 102
-rect 22 97 27 102
-rect 12 95 27 97
-rect 36 102 51 104
-rect 36 97 41 102
-rect 46 97 51 102
-rect 36 95 51 97
+rect 9 102 24 104
+rect 9 97 14 102
+rect 19 97 24 102
+rect 9 95 24 97
+rect 30 102 45 104
+rect 30 97 35 102
+rect 40 97 45 102
+rect 30 95 45 97
+rect 51 102 66 104
+rect 51 97 56 102
+rect 61 97 66 102
+rect 51 95 66 97
 << psubdiffcont >>
 rect -7 -11 -2 -6
-rect 17 -11 22 -6
-rect 41 -11 46 -6
+rect 14 -11 19 -6
+rect 35 -11 40 -6
+rect 56 -11 61 -6
 << nsubdiffcont >>
 rect -7 97 -2 102
-rect 17 97 22 102
-rect 41 97 46 102
+rect 14 97 19 102
+rect 35 97 40 102
+rect 56 97 61 102
 << polysilicon >>
 rect 1 88 7 93
 rect 18 88 24 93
@@ -150,9 +160,10 @@ rect 48 35 54 41
 << metal1 >>
 rect -18 102 71 109
 rect -18 97 -7 102
-rect -2 97 17 102
-rect 22 97 41 102
-rect 46 97 71 102
+rect -2 97 14 102
+rect 19 97 35 102
+rect 40 97 56 102
+rect 61 97 71 102
 rect -18 95 71 97
 rect 10 84 15 95
 rect -7 77 -2 79
@@ -193,9 +204,10 @@ rect -7 -4 -2 5
 rect 44 -4 49 5
 rect -18 -6 71 -4
 rect -18 -11 -7 -6
-rect -2 -11 17 -6
-rect 22 -11 41 -6
-rect 46 -11 71 -6
+rect -2 -11 14 -6
+rect 19 -11 35 -6
+rect 40 -11 56 -6
+rect 61 -11 71 -6
 rect -18 -18 71 -11
 << via1 >>
 rect -1 35 5 41
