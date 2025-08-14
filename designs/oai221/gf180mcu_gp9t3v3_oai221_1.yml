@@ -35,3 +35,4 @@ cells:
         inputs:     [A0, A1, B0, B1, C]
         outputs:    ['Y']
         functions: [Y=!((A0|A1) & (B0|B1) & C)]
+        
