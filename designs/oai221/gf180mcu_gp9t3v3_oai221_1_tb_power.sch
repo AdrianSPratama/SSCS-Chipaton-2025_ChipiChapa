@@ -95,3 +95,4 @@ value=1f
 footprint=1206
 device="ceramic capacitor"}
 C {ChipiChapa/SSCS-Chipaton-2025_ChipiChapa/designs/oai221/gf180mcu_gp9t3v3_oai221_1.sym} 640 -220 0 0 {name=x1}
+
