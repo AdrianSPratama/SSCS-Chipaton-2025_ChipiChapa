@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1755145353
+timestamp 1755245939
 << nwell >>
 rect -60 6 29 70
 << nmos >>
@@ -240,11 +240,11 @@ rect 19 -6 20 0
 rect 26 -6 27 0
 rect 19 -7 27 -6
 << labels >>
-rlabel via1 -40 -2 -40 -2 0 A0
 rlabel metal2 -27 -5 -21 1 0 A1
 rlabel metal2 -11 -5 -5 1 0 B
 rlabel metal2 5 -5 11 1 0 C
-rlabel metal2 20 -6 26 0 0 out
 rlabel nsubdiffcont -49 58 -44 63 0 vdd
 rlabel psubdiffcont -49 -50 -44 -45 0 vss
+rlabel metal2 20 -6 26 0 0 Y
+rlabel metal2 -43 -5 -37 1 0 A0
 << end >>
