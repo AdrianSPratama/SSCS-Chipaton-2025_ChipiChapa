@@ -1,0 +1,20 @@
+magic
+tech gf180mcuD
+timestamp 1755252938
+use gf180mcu_gp9t3v3__aoi221_1  gf180mcu_gp9t3v3__aoi221_1_0 /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi221
+timestamp 1755252091
+transform 1 0 107 0 1 5
+box -6 -5 106 122
+use gf180mcu_gp9t3v3_oai211_1  gf180mcu_gp9t3v3_oai211_1_0 /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/oai211
+timestamp 1755245939
+transform 1 0 60 0 1 189
+box -60 -57 29 70
+use gf180mcu_gp9t3v3_oai221_1  gf180mcu_gp9t3v3_oai221_1_0 /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/oai221
+timestamp 1755245820
+transform 1 0 118 0 1 163
+box -17 -31 88 96
+use gf180mcu_osu_sc_gp9t3v3_aoi211_1  gf180mcu_osu_sc_gp9t3v3_aoi211_1_0 /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211
+timestamp 1755166654
+transform 1 0 18 0 1 18
+box -18 -18 71 109
+<< end >>
