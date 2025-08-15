@@ -32,7 +32,7 @@ settings:
         loads:  [0.00103698, 0.00390104, 0.0146754, 0.0552075, 0.207686, 0.781296]
 cells:
     gf180mcu_osu_sc_gp9t3v3_aoi211_1:
-        netlist:  /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1.spice
+        netlist:  /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1_xschem.spice
         inputs:     [A0, A1, B, C]
         outputs:    ['Y']
         functions: [Y=!((A0&A1)|B|C)]
