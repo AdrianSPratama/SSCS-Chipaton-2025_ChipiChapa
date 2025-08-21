@@ -17,10 +17,10 @@ https://github.com/AdrianSPratama/SSCS-Chipaton-2025_ChipiChapa/blob/main/propos
 https://docs.google.com/spreadsheets/d/1PtmuyiHweRWKpOBbN-9DdKNZ7erSgrVJdXXUhSANtq4/edit?usp=sharing
 
 ## **Schematic/Simulation Review Slide Link**
-https://docs.google.com/presentation/d/1OeOpYs1b3spDx6lRCEjhDnOBl7o6bk6FHgmrd1FyrGM/edit?usp=sharing
+https://github.com/AdrianSPratama/SSCS-Chipaton-2025_ChipiChapa/blob/main/docs/Schematic%20%26%20Simulation%20Review_ChipiChapa.pdf
 
 ## **Pin Out & Estimated Size Slide Link**
-https://docs.google.com/presentation/d/1d0mqz02iQoNftkOn9sYc9EfXrlS14j5VdZ-AflRnk0U/edit?usp=sharing
+https://github.com/AdrianSPratama/SSCS-Chipaton-2025_ChipiChapa/blob/main/docs/Pin%20Out%20%26%20Estimated%20Size_ChipiChapa.pdf
 
 ## **ChipiChapa Github Repo**
 https://github.com/AdrianSPratama/SSCS-Chipaton-2025_ChipiChapa

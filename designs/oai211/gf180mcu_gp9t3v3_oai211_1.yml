@@ -1,5 +1,5 @@
 settings:
-    lib_name:           testoai211
+    lib_name:           gf180mcu_gp9t3v3_oai211_1_postlayout
     omit_on_failure:      True
     units:
         time:               ns

@@ -1,8 +1,8 @@
 magic
 tech gf180mcuD
-timestamp 1755245485
+timestamp 1755760448
 << nwell >>
-rect -6 44 106 122
+rect -6 58 106 122
 << nmos >>
 rect 19 16 25 33
 rect 30 16 36 33
@@ -300,11 +300,19 @@ rect 99 40 101 46
 rect 90 39 101 40
 << labels >>
 rlabel metal1 -6 114 -6 114 3 vdd
+port 7 e power bidirectional abutment
 rlabel metal1 -6 1 -6 1 3 vss
+port 8 e ground bidirectional abutment
 rlabel polysilicon 36 40 36 40 1 B0
+port 3 n signal input
 rlabel polysilicon 68 42 68 42 1 A1
+port 2 n signal input
 rlabel polysilicon 49 42 49 42 1 C
+port 5 n signal input
 rlabel polysilicon 85 42 85 42 1 A0
+port 1 n signal input
 rlabel via1 95 40 95 40 1 Y
-rlabel polysilicon 10 38 10 38 1 B1
+port 6 n signal output
+rlabel polysilicon 19 51 19 51 1 B1
+port 4 n signal input
 << end >>

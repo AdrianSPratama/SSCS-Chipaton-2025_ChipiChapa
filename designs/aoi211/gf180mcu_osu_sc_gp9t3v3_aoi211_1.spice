@@ -1,20 +1,44 @@
-** sch_path: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi211/gf180mcu_osu_sc_gp9t3v3_aoi211_1.sch
-.subckt gf180mcu_osu_sc_gp9t3v3_aoi211_1 VDD A1 A0 B C Y VSS
-*.PININFO Y:O A0:I A1:I B:I C:I VDD:B VSS:B
-XMA0_n Y A0 net3 VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
-+ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-XMA1_n net3 A1 VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
-+ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-XMB_n Y B VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
-+ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-XMC_n Y C VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
-+ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-XMA0_p net1 A0 VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
-+ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-XMA1_p net1 A1 VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
-+ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-XMB_p net2 B net1 VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
-+ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-XMC_p Y C net2 VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
-+ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+* SPICE3 file created from gf180mcu_osu_sc_gp9t3v3_aoi211_1.ext - technology: gf180mcuD
+.subckt gf180mcu_osu_sc_gp9t3v3_aoi211_1 vdd A1 A0 B C Y vss
+*.PININFO Y:O A0:I A1:I B:I C:I vdd:B vss:B
+X0 a_70_30# A1 vss vss nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X1 vdd A1 a_n90_540# vdd pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X2 Y C a_410_540# vdd pfet_03v3 ad=0.85p pd=4.4u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X3 Y C vss vss nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X4 a_n90_540# A0 vdd vdd pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X5 vss B Y vss nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X6 Y A0 a_70_30# vss nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X7 a_410_540# B a_n90_540# vdd pfet_03v3 ad=0.2125p pd=1.95u as=0.4675p ps=2.25u w=1.7u l=0.3u
+C0 a_410_540# Y 0.00464f
+C1 C vdd 0.10468f
+C2 a_n90_540# A1 0.0598f
+C3 Y a_n90_540# 0.04331f
+C4 vdd a_410_540# 0.00522f
+C5 a_70_30# A0 0.00209f
+C6 vdd a_n90_540# 0.24256f
+C7 B A0 0.14253f
+C8 C a_n90_540# 0.00365f
+C9 Y a_70_30# 0.00155f
+C10 B Y 0.107f
+C11 a_410_540# a_n90_540# 0.00262f
+C12 vdd B 0.09771f
+C13 C B 0.17532f
+C14 A0 A1 0.1279f
+C15 Y A0 0.00888f
+C16 a_70_30# a_n90_540# 0.00184f
+C17 Y A1 0.00361f
+C18 vdd A0 0.10437f
+C19 B a_n90_540# 0.01634f
+C20 vdd A1 0.1078f
+C21 vdd Y 0.07048f
+C22 C Y 0.22754f
+C23 A0 a_n90_540# 0.05759f
+C24 a_70_30# vss 0.00844f
+C25 Y vss 0.54509f
+C26 a_n90_540# vss 0.09099f
+C27 C vss 0.33792f
+C28 B vss 0.28193f
+C29 A0 vss 0.29139f
+C30 A1 vss 0.36819f
+C31 vdd vss 1.92733f
 .ends
