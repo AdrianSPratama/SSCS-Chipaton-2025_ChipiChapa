@@ -1,0 +1,59 @@
+* SPICE3 file created from gf180mcu_gp9t3v3_oai221_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_gp9t3v3_oai221_1 A0 A1 B0 B1 C Y vdd vss
+X0 a_n110_n70# A1 Y vss nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X1 Y B1 a_560_410# vdd pfet_03v3 ad=0.85p pd=4.4u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X2 a_390_n70# C a_n110_n70# vss nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X3 a_390_n70# B1 vss vss nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X4 a_110_410# A0 vdd vdd pfet_03v3 ad=0.2125p pd=1.95u as=0.85p ps=4.4u w=1.7u l=0.3u
+X5 Y A1 a_110_410# vdd pfet_03v3 ad=0.4675p pd=2.25u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X6 vss B0 a_390_n70# vss nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X7 vdd C Y vdd pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X8 Y A0 a_n110_n70# vss nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X9 a_560_410# B0 vdd vdd pfet_03v3 ad=0.2125p pd=1.95u as=0.4675p ps=2.25u w=1.7u l=0.3u
+C0 a_n110_n70# A0 0.05779f
+C1 A0 C 0
+C2 A1 a_n110_n70# 0.05638f
+C3 A1 C 0.10829f
+C4 vdd a_110_410# 0.00549f
+C5 B0 B1 0.16085f
+C6 Y a_110_410# 0.00573f
+C7 a_n110_n70# B0 0
+C8 C B0 0.1392f
+C9 vdd a_560_410# 0.00549f
+C10 Y vdd 0.50179f
+C11 vdd a_390_n70# 0
+C12 Y a_560_410# 0.00573f
+C13 Y a_390_n70# 0.05423f
+C14 vdd A0 0.15311f
+C15 A1 vdd 0.0909f
+C16 Y A0 0.09132f
+C17 A1 Y 0.17058f
+C18 A1 a_390_n70# 0
+C19 a_n110_n70# C 0.00479f
+C20 A1 A0 0.08267f
+C21 vdd B0 0.0949f
+C22 a_560_410# B0 0.00204f
+C23 vdd B1 0.12123f
+C24 Y B0 0.13041f
+C25 B0 a_390_n70# 0.12515f
+C26 Y B1 0.14349f
+C27 B1 a_390_n70# 0.1264f
+C28 A1 B0 0.00127f
+C29 A1 B1 0
+C30 vdd a_n110_n70# 0.00585f
+C31 vdd C 0.10899f
+C32 Y a_n110_n70# 0.15769f
+C33 Y C 0.14177f
+C34 a_n110_n70# a_390_n70# 0.06353f
+C35 C a_390_n70# 0.02952f
+C36 Y vss 0.28022f
+C37 B1 vss 0.33834f
+C38 B0 vss 0.25665f
+C39 C vss 0.27627f
+C40 A1 vss 0.28049f
+C41 A0 vss 0.36107f
+C42 vdd vss 2.36999f
+C43 a_390_n70# vss 0.32897f 
+C44 a_n110_n70# vss 0.49548f 
+.ends
