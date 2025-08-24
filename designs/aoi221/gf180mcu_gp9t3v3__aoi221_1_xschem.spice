@@ -1,5 +1,5 @@
 ** sch_path: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi221/gf180mcu_gp9t3v3__aoi221_1.sch
-**.subckt gf180mcu_gp9t3v3__aoi221_1 vdd Y B0 A0 C B1 A1 vss
+.subckt gf180mcu_gp9t3v3__aoi221_1 A0 A1 B0 B1 C Y vdd vss
 *.iopin vdd
 *.iopin vss
 *.ipin A0
@@ -28,5 +28,5 @@ XMA1_p Y A1 net4 vdd pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.1
 + ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
 XMC_p net4 C net3 vdd pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-**.ends
+.ends
 .end
