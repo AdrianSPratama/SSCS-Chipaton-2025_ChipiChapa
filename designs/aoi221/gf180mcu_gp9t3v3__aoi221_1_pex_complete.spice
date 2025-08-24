@@ -1,6 +1,7 @@
 * SPICE3 file created from gf180mcu_gp9t3v3__aoi221_1.2.ext - technology: gf180mcuD
 
 .option scale=5n
+.subckt gf180mcu_gp9t3v3__aoi221_1 vdd Y B0 A0 C B1 A1 vss
 
 X0 a_30_670# B0.t0 vdd.t1 vdd.t0 pfet_03v3 ad=18.7n pd=0.45m as=18.7n ps=0.45m w=340 l=60
 X1 Y.t1 A1.t0 a_530_670# vdd.t2 pfet_03v3 ad=18.7n pd=0.45m as=18.7n ps=0.45m w=340 l=60
@@ -126,3 +127,4 @@ C46 a_740_160# vss 0.00366f
 C47 a_250_160# vss 0.00366f 
 C48 a_530_670# vss 0.05393f 
 C49 a_30_670# vss 0.09822f
+.ends
