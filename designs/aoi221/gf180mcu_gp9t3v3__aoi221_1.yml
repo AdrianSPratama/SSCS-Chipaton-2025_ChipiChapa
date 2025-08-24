@@ -1,5 +1,5 @@
 settings:
-    lib_name:           gf180mcu_gp9t3v3__aoi221_1
+    lib_name:           gf180mcu_gp9t3v3__aoi221_1_post_layout_with_pex_complete
     omit_on_failure:      True
     units:
         time:               ns
@@ -23,6 +23,7 @@ settings:
             name:       VNW
             voltage:    3.3
     cell_defaults:
+        simulation_timestep: 0.0175
         models:
             # This syntax tells CharLib to use the '.lib file section' syntax for th>
             - /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
@@ -31,7 +32,7 @@ settings:
         loads:  [0.00103698, 0.00389173, 0.0146054, 0.0548132, 0.20571, 0.772017]
 cells:
     gf180mcu_gp9t3v3__aoi221_1:
-        netlist:  /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi221/Pre_Layout_CharLib_Simulation/gf180mcu_gp9t3v3__aoi221_1.spice
+        netlist:  /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/aoi221/gf180mcu_gp9t3v3__aoi221_1_pex_complete.spice
         inputs:     [A0, A1, B0, B1, C]
         outputs:    ['Y']
         functions: [Y=!((A0&A1)|(B0&B1)|C)]
