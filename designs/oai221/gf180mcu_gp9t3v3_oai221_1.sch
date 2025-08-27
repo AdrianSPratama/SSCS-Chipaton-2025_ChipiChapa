@@ -14,20 +14,20 @@ N 540 -290 610 -290 {lab=#net2}
 N 540 -290 540 -270 {lab=#net2}
 N 610 -290 680 -290 {lab=#net2}
 N 680 -290 680 -270 {lab=#net2}
-N 540 -210 540 -190 {lab=VSS}
-N 540 -190 680 -190 {lab=VSS}
-N 680 -210 680 -190 {lab=VSS}
-N 610 -190 610 -170 {lab=VSS}
+N 540 -210 540 -190 {lab=vss}
+N 540 -190 680 -190 {lab=vss}
+N 680 -210 680 -190 {lab=vss}
+N 610 -190 610 -170 {lab=vss}
 N 500 -510 500 -490 {lab=Y}
 N 720 -510 720 -490 {lab=Y}
 N 500 -610 500 -570 {lab=#net3}
-N 500 -690 500 -670 {lab=VDD}
-N 500 -690 720 -690 {lab=VDD}
-N 720 -690 720 -670 {lab=VDD}
+N 500 -690 500 -670 {lab=vdd}
+N 500 -690 720 -690 {lab=vdd}
+N 720 -690 720 -670 {lab=vdd}
 N 720 -610 720 -570 {lab=#net4}
 N 610 -560 610 -490 {lab=Y}
-N 610 -690 610 -620 {lab=VDD}
-N 610 -710 610 -690 {lab=VDD}
+N 610 -690 610 -620 {lab=vdd}
+N 610 -710 610 -690 {lab=vdd}
 N 610 -390 610 -370 {lab=#net1}
 N 500 -490 720 -490 {lab=Y}
 N 540 -490 540 -470 {lab=Y}
@@ -179,22 +179,22 @@ C {ipin.sym} 570 -590 0 0 {name=p3 lab=C}
 C {ipin.sym} 680 -640 0 0 {name=p4 lab=B0}
 C {ipin.sym} 680 -540 0 0 {name=p5 lab=B1}
 C {opin.sym} 720 -490 0 0 {name=p7 lab=Y}
-C {iopin.sym} 610 -170 1 0 {name=p8 lab=VSS}
-C {iopin.sym} 610 -710 3 0 {name=p9 lab=VDD
+C {iopin.sym} 610 -170 1 0 {name=p8 lab=vss}
+C {iopin.sym} 610 -710 3 0 {name=p9 lab=vdd
 }
 C {lab_wire.sym} 500 -440 0 0 {name=p6 sig_type=std_logic lab=A0}
 C {lab_wire.sym} 640 -440 0 0 {name=p10 sig_type=std_logic lab=A1}
 C {lab_wire.sym} 570 -340 0 0 {name=p11 sig_type=std_logic lab=C}
 C {lab_wire.sym} 500 -240 0 0 {name=p12 sig_type=std_logic lab=B0}
 C {lab_wire.sym} 640 -240 0 0 {name=p13 sig_type=std_logic lab=B1}
-C {lab_wire.sym} 500 -640 2 0 {name=p14 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} 500 -540 2 0 {name=p15 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} 610 -590 2 0 {name=p16 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} 720 -540 2 0 {name=p17 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} 720 -640 2 0 {name=p18 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} 540 -440 2 0 {name=p19 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} 680 -440 2 0 {name=p20 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} 610 -340 2 0 {name=p21 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} 540 -240 2 0 {name=p22 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} 680 -240 2 0 {name=p23 sig_type=std_logic lab=VSS}
+C {lab_wire.sym} 500 -640 2 0 {name=p14 sig_type=std_logic lab=vdd}
+C {lab_wire.sym} 500 -540 2 0 {name=p15 sig_type=std_logic lab=vdd}
+C {lab_wire.sym} 610 -590 2 0 {name=p16 sig_type=std_logic lab=vdd}
+C {lab_wire.sym} 720 -540 2 0 {name=p17 sig_type=std_logic lab=vdd}
+C {lab_wire.sym} 720 -640 2 0 {name=p18 sig_type=std_logic lab=vdd}
+C {lab_wire.sym} 540 -440 2 0 {name=p19 sig_type=std_logic lab=vss}
+C {lab_wire.sym} 680 -440 2 0 {name=p20 sig_type=std_logic lab=vss}
+C {lab_wire.sym} 610 -340 2 0 {name=p21 sig_type=std_logic lab=vss}
+C {lab_wire.sym} 540 -240 2 0 {name=p22 sig_type=std_logic lab=vss}
+C {lab_wire.sym} 680 -240 2 0 {name=p23 sig_type=std_logic lab=vss}
 C {title.sym} 160 -40 0 0 {name=l1 author="Nabil Raihan"}

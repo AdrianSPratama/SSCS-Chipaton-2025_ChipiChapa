@@ -1,0 +1,24 @@
+| units: 0.5 tech: gf180mcuD format: MIT
+x A1 Y a_n110_n70# vss s=9350,280 d=9350,280 l=60 w=170 x=160 y=-69 nfet_03v3
+x B1 a_560_410# Y vdd s=8500,390 d=34000,880 l=60 w=340 x=610 y=410 pfet_03v3
+x C a_n110_n70# a_390_n70# vss s=9350,280 d=9350,280 l=60 w=170 x=330 y=-69 nfet_03v3
+x B1 vss a_390_n70# vss s=9350,280 d=17000,540 l=60 w=170 x=670 y=-69 nfet_03v3
+x A0 vdd a_110_410# vdd s=34000,880 d=8500,390 l=60 w=340 x=50 y=410 pfet_03v3
+x A1 a_110_410# Y vdd s=8500,390 d=18700,450 l=60 w=340 x=160 y=410 pfet_03v3
+x B0 a_390_n70# vss vss s=9350,280 d=9350,280 l=60 w=170 x=500 y=-69 nfet_03v3
+x C Y vdd vdd s=18700,450 d=18700,450 l=60 w=340 x=330 y=410 pfet_03v3
+x A0 a_n110_n70# Y vss s=17000,540 d=9350,280 l=60 w=170 x=-9 y=-69 nfet_03v3
+x B0 vdd a_560_410# vdd s=18700,450 d=8500,390 l=60 w=340 x=500 y=410 pfet_03v3
+R Y 76
+R B1 121
+R B0 113
+R C 119
+R A1 124
+R A0 131
+C vdd0 2.4
+R vdd 1856
+R vss 146
+R a_390_n70# 41
+R a_n110_n70# 41
+R a_560_410# 48
+R a_110_410# 48
