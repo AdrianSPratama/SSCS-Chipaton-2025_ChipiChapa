@@ -1,0 +1,15 @@
+* NGSPICE file created from gf180mcu_gp9t3v3_oai221_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_gp9t3v3_oai221_1 A0 A1 B0 B1 C Y vdd vss
+X0 a_n110_n70# A1 Y vss nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X1 Y B1 a_560_410# vdd pfet_03v3 ad=0.85p pd=4.4u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X2 a_390_n70# C a_n110_n70# vss nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X3 a_390_n70# B1 vss vss nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X4 a_110_410# A0 vdd vdd pfet_03v3 ad=0.2125p pd=1.95u as=0.85p ps=4.4u w=1.7u l=0.3u
+X5 Y A1 a_110_410# vdd pfet_03v3 ad=0.4675p pd=2.25u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X6 vss B0 a_390_n70# vss nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X7 vdd C Y vdd pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X8 Y A0 a_n110_n70# vss nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X9 a_560_410# B0 vdd vdd pfet_03v3 ad=0.2125p pd=1.95u as=0.4675p ps=2.25u w=1.7u l=0.3u
+.ends
+
