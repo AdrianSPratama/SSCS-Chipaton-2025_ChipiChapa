@@ -1,0 +1,18 @@
+| units: 0.5 tech: gf180mcuD format: MIT
+x A1 vss a_70_30# vss s=17000,540 d=9350,280 l=60 w=170 x=10 y=30 nfet_03v3
+x A1 a_n90_540# vdd vdd s=34000,880 d=18700,450 l=60 w=340 x=10 y=540 pfet_03v3
+x C a_410_540# Y vdd s=8500,390 d=34000,880 l=60 w=340 x=460 y=540 pfet_03v3
+x C vss Y vss s=9350,280 d=17000,540 l=60 w=170 x=520 y=30 nfet_03v3
+x A0 vdd a_n90_540# vdd s=18700,450 d=18700,450 l=60 w=340 x=180 y=540 pfet_03v3
+x B Y vss vss s=9350,280 d=9350,280 l=60 w=170 x=350 y=30 nfet_03v3
+x A0 a_70_30# Y vss s=9350,280 d=9350,280 l=60 w=170 x=180 y=30 nfet_03v3
+x B a_n90_540# a_410_540# vdd s=18700,450 d=8500,390 l=60 w=340 x=350 y=540 pfet_03v3
+R Y 66
+R C 118
+R B 118
+R A0 117
+R A1 117
+R vdd 1508
+R vss 146
+R a_410_540# 48
+R a_n90_540# 64
