@@ -1,0 +1,101 @@
+* NGSPICE file created from gf180mcu_gp9t3v3_oai211_1.2.ext - technology: gf180mcuD
+
+.subckt gf180mcu_gp9t3v3_oai211_1.2 A0 A1 B C Y vdd vss
+X0 Y.t2 C.t0 vdd.t2 vdd.t1 pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X1 a_n350_150# A0.t0 vdd.t4 vdd.t3 pfet_03v3 ad=0.2125p pd=1.95u as=0.85p ps=4.4u w=1.7u l=0.3u
+X2 a_n510_n360# A1.t0 vss.t2 vss.t1 nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X3 Y.t1 C.t1 a_n10_n360# vss.t0 nfet_03v3 ad=0.425p pd=2.7u as=0.10625p ps=1.1u w=0.85u l=0.3u
+X4 Y.t0 A1.t1 a_n350_150# vdd.t0 pfet_03v3 ad=0.4675p pd=2.25u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X5 vdd.t6 B.t0 Y.t3 vdd.t5 pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X6 vss.t4 A0.t1 a_n510_n360# vss.t3 nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X7 a_n10_n360# B.t1 a_n510_n360# vss.t5 nfet_03v3 ad=0.10625p pd=1.1u as=0.23375p ps=1.4u w=0.85u l=0.3u
+R0 C.n0 C.t1 34.6755
+R1 C.n0 C.t0 32.8505
+R2 C C.n0 12.5342
+R3 vdd.n6 vdd.t5 242.189
+R4 vdd.n5 vdd.t1 179.689
+R5 vdd.t3 vdd.t0 171.875
+R6 vdd.n3 vdd.t1 161.154
+R7 vdd.n7 vdd.t3 139.113
+R8 vdd.t5 vdd.n5 85.938
+R9 vdd.t0 vdd.n6 23.438
+R10 vdd.n5 vdd.n4 12.6005
+R11 vdd.n6 vdd.n0 12.6005
+R12 vdd vdd.n7 6.3005
+R13 vdd vdd.t4 3.98509
+R14 vdd.n3 vdd.n2 2.85273
+R15 vdd.n7 vdd.n1 1.7505
+R16 vdd.n2 vdd.t2 1.13285
+R17 vdd.n2 vdd.t6 1.13285
+R18 vdd.n4 vdd.n0 0.1355
+R19 vdd vdd.n0 0.1355
+R20 vdd.n4 vdd.n3 0.0197857
+R21 Y.n2 Y.t1 8.56558
+R22 Y.n3 Y.n2 4.5005
+R23 Y.n1 Y.t2 3.77491
+R24 Y.n1 Y.n0 3.25456
+R25 Y.n0 Y.t3 1.13285
+R26 Y.n0 Y.t0 1.13285
+R27 Y.n2 Y.n1 0.4775
+R28 Y Y.n3 0.03425
+R29 Y.n3 Y 0.03425
+R30 A0.n0 A0.t1 42.5838
+R31 A0.n0 A0.t0 36.5005
+R32 A0 A0.n0 12.5342
+R33 A1.n0 A1.t0 35.8922
+R34 A1.n0 A1.t1 32.8505
+R35 A1 A1.n0 12.5342
+R36 vss.n3 vss.t1 851.191
+R37 vss.t3 vss.n6 644.841
+R38 vss.t5 vss.t0 567.461
+R39 vss.n4 vss.t0 500.615
+R40 vss.n7 vss.t3 443.692
+R41 vss.n6 vss.t1 232.143
+R42 vss.n3 vss.t5 25.7941
+R43 vss.n4 vss.n3 10.4005
+R44 vss.n6 vss.n5 10.4005
+R45 vss.n1 vss.n0 6.5345
+R46 vss vss.n7 5.2005
+R47 vss.n0 vss.t2 2.03874
+R48 vss.n0 vss.t4 2.03874
+R49 vss.n7 vss.n2 1.94494
+R50 vss.n5 vss.n4 0.1355
+R51 vss vss.n1 0.109786
+R52 vss.n5 vss.n1 0.0262143
+R53 B.n0 B.t1 37.1088
+R54 B.n0 B.t0 32.8505
+R55 B B.n0 12.5342
+C0 a_n510_n360# vdd 0.01096f
+C1 vdd B 0.10815f
+C2 a_n510_n360# A1 0.0593f
+C3 A1 B 0.14363f
+C4 a_n510_n360# a_n350_150# 0.00253f
+C5 C a_n10_n360# 0.00139f
+C6 a_n510_n360# Y 0.04443f
+C7 a_n510_n360# A0 0.05694f
+C8 Y B 0.07819f
+C9 vdd A1 0.10679f
+C10 vdd a_n350_150# 0.00727f
+C11 vdd Y 0.23345f
+C12 vdd A0 0.15557f
+C13 a_n510_n360# a_n10_n360# 0.00112f
+C14 Y A1 0.01598f
+C15 A1 A0 0.11598f
+C16 Y a_n350_150# 0.00202f
+C17 a_n510_n360# C 0.00287f
+C18 C B 0.16584f
+C19 Y A0 0.00474f
+C20 vdd C 0.11068f
+C21 a_n510_n360# B 0.02529f
+C22 Y a_n10_n360# 0.00189f
+C23 C Y 0.1348f
+C24 Y vss 0.31065f
+C25 C vss 0.33699f
+C26 B vss 0.29561f
+C27 A1 vss 0.30596f
+C28 A0 vss 0.39977f
+C29 vdd vss 1.96156f
+C30 a_n10_n360# vss 0.00315f
+C31 a_n510_n360# vss 0.3042f
+.ends
+
