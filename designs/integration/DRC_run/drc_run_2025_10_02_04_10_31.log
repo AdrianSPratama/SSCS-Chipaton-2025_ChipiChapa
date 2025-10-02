@@ -1,0 +1,5 @@
+02-Oct-2025 06:10:32 | INFO    | Your Klayout version is: KLayout 0.30.2
+02-Oct-2025 06:10:33 | INFO    | ## Generating template with for the following rule tables: ['pplus.drc']
+02-Oct-2025 06:10:33 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+02-Oct-2025 06:10:33 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design pplus on cell Chipathon2025_2_padring:
+02-Oct-2025 06:11:35 | INFO    | Klayout DRC run is clean. GDS has no DRC violations.
