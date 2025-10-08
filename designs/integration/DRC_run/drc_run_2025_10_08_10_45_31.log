@@ -1,0 +1,7 @@
+08-Oct-2025 12:45:32 | INFO    | Your Klayout version is: KLayout 0.30.2
+08-Oct-2025 12:45:32 | INFO    | ## Generating template with for the following rule tables: ['metal3.drc']
+08-Oct-2025 12:45:32 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+08-Oct-2025 12:45:32 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design metal3 on cell Chipathon2025_2_padring:
+08-Oct-2025 12:45:44 | ERROR   | Klayout DRC run is not clean.
+08-Oct-2025 12:45:44 | ERROR   | Violated rules are : {'M3.2a'}
+
