@@ -46,54 +46,7 @@
    <references>
    </references>
   </cell>
-  <cell>
-   <name>D9_Nawiatsob_gf180mcu_osu_sc_gp9t3v3__mux4_1</name>
-   <variant/>
-   <layout-name>D9_Nawiatsob_gf180mcu_osu_sc_gp9t3v3__mux4_1</layout-name>
-   <references>
-    <ref>
-     <parent>Chipathon2025_2_padring</parent>
-     <trans>r0 *1 1402.75,425.35</trans>
-    </ref>
-   </references>
-  </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'M1.2a'</category>
-   <cell>Chipathon2025_2_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (1418.755,439.035;1418.755,439.404)|(1418.55,439.3;1418.55,438.931)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.2a'</category>
-   <cell>D9_Nawiatsob_gf180mcu_osu_sc_gp9t3v3__mux4_1</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (16.005,13.935;16.005,14.054)|(15.8,13.95;15.8,13.831)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.2a'</category>
-   <cell>D9_Nawiatsob_gf180mcu_osu_sc_gp9t3v3__mux4_1</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (16.005,13.685;16.005,13.935)|(15.8,13.95;15.8,13.581)</value>
-   </values>
-  </item>
  </items>
 </report-database>

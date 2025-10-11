@@ -48,41 +48,5 @@
   </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'M3.2a'</category>
-   <cell>Chipathon2025_2_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2498.854,1447.1;2505.5,1447.1)|(2505.696,1447.3;2499.05,1447.3)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2a'</category>
-   <cell>Chipathon2025_2_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2499.254,1447.1;2505.5,1447.1)|(2505.696,1447.3;2499.45,1447.3)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2a'</category>
-   <cell>Chipathon2025_2_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2498.854,1447.1;2499.646,1447.1)|(2499.45,1447.3;2499.05,1447.3)</value>
-   </values>
-  </item>
  </items>
 </report-database>
