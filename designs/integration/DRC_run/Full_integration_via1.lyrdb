@@ -83,43 +83,8 @@
     </ref>
    </references>
   </cell>
-  <cell>
-   <name>D9_Nawiatsob_gf180mcu_osu_sc_gp9t3v3__mux4_1</name>
-   <variant/>
-   <layout-name>D9_Nawiatsob_gf180mcu_osu_sc_gp9t3v3__mux4_1</layout-name>
-   <references>
-    <ref>
-     <parent>Chipathon2025_2_padring</parent>
-     <trans>r0 *1 1402.75,425.35</trans>
-    </ref>
-   </references>
-  </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'V1.1'</category>
-   <cell>Chipathon2025_2_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge: (1421.345,440.205;1421.615,440.205)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'V1.1'</category>
-   <cell>Chipathon2025_2_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge: (1421.615,439.945;1421.345,439.945)</value>
-   </values>
-  </item>
   <item>
    <tags/>
    <category>'V1.3c'</category>
@@ -130,54 +95,6 @@
    <image/>
    <values>
     <value>edge-pair: (586.47,130.63;586.47,130.825)/(586.46,130.63;586.46,130.825)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'V1.4a'</category>
-   <cell>Chipathon2025_2_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (2553.05,1426.25;2553.05,1426.51;2553.31,1426.51;2553.31,1426.25)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'V1.4a'</category>
-   <cell>Chipathon2025_2_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (2547.805,1465.02;2547.805,1465.28;2548.065,1465.28;2548.065,1465.02)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'V1.4c'</category>
-   <cell>D9_Nawiatsob_gf180mcu_osu_sc_gp9t3v3__mux4_1</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (12.875,14.35;12.875,14.405;13.135,14.405;13.135,14.35)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'V1.4c'</category>
-   <cell>D9_Nawiatsob_gf180mcu_osu_sc_gp9t3v3__mux4_1</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (22.845,15.495;22.845,15.55;22.895,15.55;22.895,15.495)</value>
    </values>
   </item>
  </items>
