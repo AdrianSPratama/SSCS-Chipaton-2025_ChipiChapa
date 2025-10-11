@@ -2,7 +2,7 @@
 <report-database>
  <description>DRC Run Report at</description>
  <original-file/>
- <generator>drc: script='/home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run/via1.drc'</generator>
+ <generator>drc: script='/foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run/via1.drc'</generator>
  <top-cell>Chipathon2025_2_padring</top-cell>
  <tags>
  </tags>
@@ -68,10 +68,34 @@
   <cell>
    <name>Chipathon2025_2_padring</name>
    <variant/>
+   <layout-name/>
    <references>
+   </references>
+  </cell>
+  <cell>
+   <name>qft3_top_pipelined_with_serial</name>
+   <variant/>
+   <layout-name>qft3_top_pipelined_with_serial</layout-name>
+   <references>
+    <ref>
+     <parent>Chipathon2025_2_padring</parent>
+     <trans>r0 *1 605.55,1696.35</trans>
+    </ref>
    </references>
   </cell>
  </cells>
  <items>
+  <item>
+   <tags/>
+   <category>'V1.3c'</category>
+   <cell>qft3_top_pipelined_with_serial</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (586.47,130.63;586.47,130.825)/(586.46,130.63;586.46,130.825)</value>
+   </values>
+  </item>
  </items>
 </report-database>
