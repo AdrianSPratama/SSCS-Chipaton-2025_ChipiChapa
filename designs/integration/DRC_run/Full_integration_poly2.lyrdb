@@ -2,7 +2,7 @@
 <report-database>
  <description>DRC Run Report at</description>
  <original-file/>
- <generator>drc: script='/foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run/poly2.drc'</generator>
+ <generator>drc: script='/home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run/poly2.drc'</generator>
  <top-cell>Chipathon2025_2_padring</top-cell>
  <tags>
  </tags>
@@ -127,7 +127,6 @@
   <cell>
    <name>Chipathon2025_2_padring</name>
    <variant/>
-   <layout-name/>
    <references>
    </references>
   </cell>
