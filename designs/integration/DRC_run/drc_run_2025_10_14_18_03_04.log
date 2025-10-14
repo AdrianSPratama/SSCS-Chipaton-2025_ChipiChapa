@@ -1,0 +1,125 @@
+14-Oct-2025 20:03:05 | INFO    | Your Klayout version is: KLayout 0.30.2
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['comp.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['contact.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['dnwell.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['drc_bjt.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['dualgate.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['dummy_exclude.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['efuse.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['esd.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['geom.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['hres.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['ldnmos.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['ldpmos.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['lres.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['lvpwell.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['lvs_bjt.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:05 | INFO    | ## Generating template with for the following rule tables: ['mcell.drc']
+14-Oct-2025 20:03:05 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['metal1.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['metal2.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['metal3.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['metal4.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['metal5.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['metaltop.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['metaltop_30k.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['mim_a.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['mim_b.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['nat.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['nplus.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['nwell.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['otp_mk.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['poly2.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['pplus.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['pres.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['sab.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['sram_3p3.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['sram_5p0.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['via1.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['via2.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['via3.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['via4.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:06 | INFO    | ## Generating template with for the following rule tables: ['via5.drc']
+14-Oct-2025 20:03:06 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:07 | INFO    | ## Generating template with for the following rule tables: ['ymtp_mk.drc']
+14-Oct-2025 20:03:07 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:03:07 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design comp on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:03:07 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design contact on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:03:07 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design dnwell on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:03:07 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design drc_bjt on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:03:20 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design dualgate on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:03:42 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design dummy_exclude on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:03:47 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design efuse on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:03:51 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design esd on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:03:57 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design geom on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:04:06 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design hres on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:04:08 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design ldnmos on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:04:11 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design ldpmos on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:04:23 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design lres on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:04:36 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design lvpwell on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:04:43 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design lvs_bjt on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:04:48 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design mcell on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:04:59 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design metal1 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:05:03 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design metal2 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:05:23 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design metal3 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:05:30 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design metal4 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:05:37 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design metal5 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:05:43 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design metaltop on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:05:51 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design metaltop_30k on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:05:53 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design mim_a on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:05:58 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design mim_b on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:06:05 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design nat on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:06:07 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design nplus on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:06:13 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design nwell on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:06:48 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design otp_mk on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:06:52 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design poly2 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:07:03 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design pplus on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:07:03 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design pres on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:07:16 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design sab on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:07:19 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design sram_3p3 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:07:30 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design sram_5p0 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:07:33 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design via1 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:07:39 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design via2 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:07:44 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design via3 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:08:04 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design via4 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:08:12 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design via5 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:08:13 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design ymtp_mk on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:08:31 | INFO    | Klayout DRC run is clean. GDS has no DRC violations.
