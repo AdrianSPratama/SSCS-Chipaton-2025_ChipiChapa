@@ -1,0 +1,7 @@
+14-Oct-2025 19:18:01 | INFO    | Your Klayout version is: KLayout 0.30.2
+14-Oct-2025 19:18:02 | INFO    | ## Generating template with for the following rule tables: ['via1.drc']
+14-Oct-2025 19:18:02 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 19:18:02 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design via1 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 19:18:56 | ERROR   | Klayout DRC run is not clean.
+14-Oct-2025 19:18:56 | ERROR   | Violated rules are : {'V1.3c'}
+
