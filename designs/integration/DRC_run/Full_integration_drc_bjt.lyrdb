@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC Run Report at</description>
+ <original-file/>
+ <generator>drc: script='/home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run/drc_bjt.drc'</generator>
+ <top-cell>Chipathon2025_2_padring</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>BJT.1</name>
+   <description>BJT.1 : Min. DRC_BJT overlap of DNWELL for NPN BJT: 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>BJT.2</name>
+   <description>BJT.2 : Min. DRC_BJT overlap of PCOM in Psub: 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>BJT.3</name>
+   <description>BJT.3 : Minimum space of DRC_BJT layer to unrelated COMP. : 0.1µm</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>Chipathon2025_2_padring</name>
+   <variant/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+ </items>
+</report-database>

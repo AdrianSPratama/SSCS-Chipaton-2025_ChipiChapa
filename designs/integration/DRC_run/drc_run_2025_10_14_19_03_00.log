@@ -1,0 +1,125 @@
+15-Oct-2025 02:03:00 | INFO    | Your Klayout version is: KLayout 0.28.16
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['nwell.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['esd.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['via5.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['mim_a.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['nat.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['metaltop.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['via3.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['geom.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['nplus.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['sram_3p3.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['drc_bjt.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['mcell.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['via1.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['metal2.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['comp.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['lres.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['via2.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['hres.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['pres.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['ldnmos.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['poly2.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['pplus.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['metal5.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['metaltop_30k.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['dnwell.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['lvpwell.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['sab.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['lvs_bjt.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['contact.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['metal4.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['otp_mk.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['ymtp_mk.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['sram_5p0.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['via4.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['mim_b.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['ldpmos.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['metal3.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['dummy_exclude.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['efuse.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['metal1.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | ## Generating template with for the following rule tables: ['dualgate.drc']
+15-Oct-2025 02:03:00 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:03:00 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design nwell on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:00 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design esd on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:00 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design via5 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:00 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design mim_a on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:00 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design nat on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:00 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design metaltop on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:13 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design via3 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:13 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design geom on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:16 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design nplus on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:17 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design sram_3p3 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:33 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design drc_bjt on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:38 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design mcell on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:53 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design via1 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:55 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design metal2 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:03:57 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design comp on cell Chipathon2025_2_padring:
+15-Oct-2025 02:04:10 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design lres on cell Chipathon2025_2_padring:
+15-Oct-2025 02:04:24 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design via2 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:04:30 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design hres on cell Chipathon2025_2_padring:
+15-Oct-2025 02:04:33 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design pres on cell Chipathon2025_2_padring:
+15-Oct-2025 02:04:56 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design ldnmos on cell Chipathon2025_2_padring:
+15-Oct-2025 02:05:01 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design poly2 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:05:34 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design pplus on cell Chipathon2025_2_padring:
+15-Oct-2025 02:05:55 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design metal5 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:06:01 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design metaltop_30k on cell Chipathon2025_2_padring:
+15-Oct-2025 02:06:14 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design dnwell on cell Chipathon2025_2_padring:
+15-Oct-2025 02:06:19 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design lvpwell on cell Chipathon2025_2_padring:
+15-Oct-2025 02:06:24 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design sab on cell Chipathon2025_2_padring:
+15-Oct-2025 02:06:55 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design lvs_bjt on cell Chipathon2025_2_padring:
+15-Oct-2025 02:06:56 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design contact on cell Chipathon2025_2_padring:
+15-Oct-2025 02:07:16 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design metal4 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:07:25 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design otp_mk on cell Chipathon2025_2_padring:
+15-Oct-2025 02:07:28 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design ymtp_mk on cell Chipathon2025_2_padring:
+15-Oct-2025 02:07:42 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design sram_5p0 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:07:51 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design via4 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:07:52 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design mim_b on cell Chipathon2025_2_padring:
+15-Oct-2025 02:08:06 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design ldpmos on cell Chipathon2025_2_padring:
+15-Oct-2025 02:08:24 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design metal3 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:09:03 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design dummy_exclude on cell Chipathon2025_2_padring:
+15-Oct-2025 02:09:32 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design efuse on cell Chipathon2025_2_padring:
+15-Oct-2025 02:09:43 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design metal1 on cell Chipathon2025_2_padring:
+15-Oct-2025 02:10:09 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design dualgate on cell Chipathon2025_2_padring:
+15-Oct-2025 02:27:01 | INFO    | Klayout DRC run is clean. GDS has no DRC violations.

@@ -1,0 +1,5 @@
+15-Oct-2025 02:01:37 | INFO    | Your Klayout version is: KLayout 0.28.16
+15-Oct-2025 02:01:38 | INFO    | ## Generating template with for the following rule tables: ['comp.drc']
+15-Oct-2025 02:01:38 | INFO    | ## Your run dir located at: /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+15-Oct-2025 02:01:38 | INFO    | Running Global Foundries 180nm MCU /home/rifki-afriadi/Campus/integration/SSCS-Chipaton-2025_ChipiChapa/designs/integration/Full_integration.gds checks on design comp on cell Chipathon2025_2_padring:
+15-Oct-2025 02:02:31 | INFO    | Klayout DRC run is clean. GDS has no DRC violations.

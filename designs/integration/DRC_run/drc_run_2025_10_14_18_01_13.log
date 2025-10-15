@@ -1,0 +1,5 @@
+14-Oct-2025 20:01:13 | INFO    | Your Klayout version is: KLayout 0.30.2
+14-Oct-2025 20:01:13 | INFO    | ## Generating template with for the following rule tables: ['metal2.drc']
+14-Oct-2025 20:01:13 | INFO    | ## Your run dir located at: /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/DRC_run
+14-Oct-2025 20:01:13 | INFO    | Running Global Foundries 180nm MCU /foss/designs/SSCS-Chipaton-2025_ChipiChapa/designs/integration/qft3_top_pipelined_with_serial.gds checks on design metal2 on cell qft3_top_pipelined_with_serial:
+14-Oct-2025 20:01:25 | INFO    | Klayout DRC run is clean. GDS has no DRC violations.
