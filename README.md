@@ -24,3 +24,6 @@ https://github.com/AdrianSPratama/SSCS-Chipaton-2025_ChipiChapa/blob/main/docs/P
 
 ## **ChipiChapa Github Repo**
 https://github.com/AdrianSPratama/SSCS-Chipaton-2025_ChipiChapa
+
+## **ChipiChapa Closing Slide**
+https://drive.google.com/file/d/1TsjNp-oyjTHYDurA27sHm9y-M0dA2QlG/view?usp=sharing
